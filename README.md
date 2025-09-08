@@ -22,16 +22,13 @@ This project processes 7 medical coding standards into clean CSV files. Healthca
 # Setup
 git clone https://github.com/jonathanjafari/medical-codex-pipeline.git
 cd medical-codex-pipeline
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Create directories
 mkdir input output logs
 mkdir output/csv
-
-# Run demo with test data
-python test_runner.py
 ```
 
 ## How It Works
@@ -61,11 +58,17 @@ medical-codex-pipeline/
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
 ├── input/            # Raw data files
+│   ├── snomed_sample.csv
+│   ├── icd10cm_sample.txt
+│   ├── icd10who_sample.txt
+│   ├── hcpcs_sample.txt
+│   ├── loinc_sample.csv
+│   ├── npidata_sample.csv
+│   └── rxnorm_sample.csv
 ├── output/csv/       # Clean CSV outputs  
 ├── utils/            # Common functions
 │   └── common_functions.py
 ├── logs/             # Processing logs
-├── test_runner.py    # Demo script
 ├── requirements.txt
 └── README.md
 ```
@@ -73,23 +76,23 @@ medical-codex-pipeline/
 ## Running Individual Processors
 
 ```bash
-python scripts/snomed_processor.py
-python scripts/icd10cm_processor.py
-python scripts/icd10who_processor.py
-python scripts/hcpcs_processor.py
-python scripts/loinc_processor.py
-python scripts/rxnorm_processor.py
-python scripts/npi_processor.py
+python3 scripts/snomed_processor.py
+python3 scripts/icd10cm_processor.py
+python3 scripts/icd10who_processor.py
+python3 scripts/hcpcs_processor.py
+python3 scripts/loinc_processor.py
+python3 scripts/rxnorm_processor.py
+python3 scripts/npi_processor.py
 ```
 
 **Expected input files in `input/`:**
-- `snomed_concepts.txt`
-- `icd10cm_codes_2024.txt` 
-- `icd10who_2024.xml`
-- `hcpcs_codes_2024.txt`
-- `loinc_2024.csv`
-- `rxnorm_2024.txt`
-- `npi_registry_2024.csv`
+- `snomed_sample.csv`
+- `icd10cm_sample.txt` 
+- `icd10who_sample.txt`
+- `hcpcs_sample.txt`
+- `loinc_sample.csv`
+- `rxnorm_sample.csv`
+- `npidata_sample.csv`
 
 ## Key Features
 
@@ -115,15 +118,15 @@ python scripts/npi_processor.py
 **Solution:** Process in chunks with pandas
 
 **Problem:** No real test data  
-**Solution:** Built fake data generator
+**Solution:** Created sample data files for testing
 
 ## Testing
 
-The `test_runner.py` creates sample data and runs the full pipeline:
-- Generates realistic test files
-- Processes all 7 codexes
-- Validates output format
-- Shows processing summary
+Each processor can be tested individually with the sample data files provided in the `input/` directory. The processors will:
+- Load the sample data
+- Process and validate codes according to each codex's format rules
+- Generate clean CSV output files
+- Log processing information
 
 ## What I Learned
 

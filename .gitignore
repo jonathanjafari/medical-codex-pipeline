@@ -5,14 +5,15 @@ input/
 *.zip
 raw_downloads/
 
-# Processed files are OK
+# Processed files are OK to commit
 # output/ - keep these
 
 # Python
 __pycache__/
 *.pyc
-.venv/
 .env
+venv/
+
 
 # IDE
 .vscode/
