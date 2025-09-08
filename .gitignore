@@ -5,15 +5,18 @@ input/
 *.zip
 raw_downloads/
 
-# Processed files are OK to commit
-# output/ - keep these
+# Processed files are OK
+# output/ – keep these
+
+# Logs (keep folder, ignore contents except .gitkeep)
+logs/*
+!logs/.gitkeep
 
 # Python
 __pycache__/
 *.pyc
+.venv/
 .env
-venv/
-
 
 # IDE
 .vscode/
