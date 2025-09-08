@@ -1,0 +1,5 @@
+code|description
+A00|Cholera
+A01|Typhoid and paratyphoid fevers
+Z99.2|Dependence on renal dialysis
+BAD|Not valid
