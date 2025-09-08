@@ -1,6 +1,6 @@
 # Medical Codex Pipeline
 
-**Student:** [Jonathan Jafari]  
+**Student:** Jonathan Jafari  
 **Course:** HHA 507  
 **Assignment:** Medical Codex Data Processing
 
@@ -20,14 +20,15 @@ This project processes 7 medical coding standards into clean CSV files. Healthca
 
 ```bash
 # Setup
-git clone [your-repo-url]
+git clone https://github.com/jonathanjafari/medical-codex-pipeline.git
 cd medical-codex-pipeline
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Create directories
-mkdir input output logs output/csv
+mkdir input output logs
+mkdir output/csv
 
 # Run demo with test data
 python test_runner.py
@@ -48,14 +49,25 @@ A00.0,Cholera due to Vibrio cholerae,2024-09-08 14:30:00
 ```
 
 ## File Structure
+
 ```
 medical-codex-pipeline/
 ├── scripts/           # 7 processor scripts
+│   ├── snomed_processor.py
+│   ├── icd10cm_processor.py
+│   ├── icd10who_processor.py
+│   ├── hcpcs_processor.py
+│   ├── loinc_processor.py
+│   ├── rxnorm_processor.py
+│   └── npi_processor.py
 ├── input/            # Raw data files
 ├── output/csv/       # Clean CSV outputs  
 ├── utils/            # Common functions
+│   └── common_functions.py
+├── logs/             # Processing logs
 ├── test_runner.py    # Demo script
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ## Running Individual Processors
@@ -63,10 +75,14 @@ medical-codex-pipeline/
 ```bash
 python scripts/snomed_processor.py
 python scripts/icd10cm_processor.py
-# etc...
+python scripts/icd10who_processor.py
+python scripts/hcpcs_processor.py
+python scripts/loinc_processor.py
+python scripts/rxnorm_processor.py
+python scripts/npi_processor.py
 ```
 
-Expected input files in `input/`:
+**Expected input files in `input/`:**
 - `snomed_concepts.txt`
 - `icd10cm_codes_2024.txt` 
 - `icd10who_2024.xml`
@@ -77,14 +93,14 @@ Expected input files in `input/`:
 
 ## Key Features
 
-**Data Validation:**
-- SNOMED: Numeric codes (123456789)
-- ICD-10: Letter + digits (A00.0)
-- HCPCS: Letter + 4 digits (A0021)
-- LOINC: Digits-digits (1234-5)
-- NPI: 10 digits (1234567890)
+### Data Validation
+- **SNOMED:** Numeric codes (123456789)
+- **ICD-10:** Letter + digits (A00.0)
+- **HCPCS:** Letter + 4 digits (A0021)
+- **LOINC:** Digits-digits (1234-5)
+- **NPI:** 10 digits (1234567890)
 
-**Error Handling:**
+### Error Handling
 - Logs all processing steps
 - Validates file formats
 - Handles missing data
@@ -130,10 +146,18 @@ The `test_runner.py` creates sample data and runs the full pipeline:
 
 ## Dependencies
 
+This project requires the following Python packages:
+
 ```
-pandas>=1.5.0
+pandas>=1.5.0  
 requests>=2.28.0  
-lxml>=4.9.0
+lxml>=4.9.0  
+```
+
+Install them with:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Real-World Context
