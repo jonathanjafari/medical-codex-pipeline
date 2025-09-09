@@ -58,13 +58,13 @@ medical-codex-pipeline/
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
 ├── input/            # Raw data files
-│   ├── snomed_sample.csv
-│   ├── icd10cm_sample.txt
-│   ├── icd10who_sample.txt
-│   ├── hcpcs_sample.txt
-│   ├── loinc_sample.csv
-│   ├── npidata_sample.csv
-│   └── rxnorm_sample.csv
+│   ├── snomed_concepts.txt
+│   ├── icd10cm_codes_2024.txt
+│   ├── icd10who_2024.xml
+│   ├── hcpcs_codes_2024.txt
+│   ├── loinc_2024.csv
+│   ├── npi_registry_2024.csv
+│   └── rxnorm_2024.txt
 ├── output/csv/       # Clean CSV outputs  
 ├── utils/            # Common functions
 │   └── common_functions.py
