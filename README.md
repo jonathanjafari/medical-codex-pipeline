@@ -68,10 +68,45 @@ medical-codex-pipeline/
 ├── output/csv/       # Clean CSV outputs  
 ├── utils/            # Common functions
 │   └── common_functions.py
-├── logs/             # Processing logs
+├── logs/             # Empty folder for logging (with .gitkeep)
+├── .gitignore        # Git exclusion rules
 ├── requirements.txt
 └── README.md
 ```
+
+## Data Handling & Version Control
+
+The `.gitignore` file excludes sensitive and temporary files from version control:
+
+```gitignore
+# Raw data files (exclude large medical datasets)
+input/
+*.txt
+*.xml
+*.zip
+raw_downloads/
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+
+# Log files
+logs/
+*.log
+```
+
+This ensures that:
+- Large raw medical data files aren't committed to Git
+- Personal environment files remain private
+- Only the processed outputs and code are version controlled
 
 ## Running Individual Processors
 
@@ -86,13 +121,13 @@ python3 scripts/npi_processor.py
 ```
 
 **Expected input files in `input/`:**
-- `snomed_sample.csv`
-- `icd10cm_sample.txt` 
-- `icd10who_sample.txt`
-- `hcpcs_sample.txt`
-- `loinc_sample.csv`
-- `rxnorm_sample.csv`
-- `npidata_sample.csv`
+- `snomed_concepts.txt`
+- `icd10cm_codes_2024.txt`
+- `icd10who_2024.xml`
+- `hcpcs_codes_2024.txt`
+- `loinc_2024.csv`
+- `rxnorm_2024.txt`
+- `npi_registry_2024.csv`
 
 ## Key Features
 
@@ -111,14 +146,23 @@ python3 scripts/npi_processor.py
 
 ## Challenges & Solutions
 
-**Problem:** Different file formats (tab, pipe, XML)  
-**Solution:** Custom loader for each codex type
+**Problem:** Different file formats (CSV, tab, pipe, XML)  
+**Solution:** Wrote flexible loaders with auto-delimiter detection and XML parsing support.
 
-**Problem:** Huge files crash my computer  
-**Solution:** Process in chunks with pandas
+**Problem:** Inconsistent column names across datasets  
+**Solution:** Added a header normalization step and alias mapping so all outputs follow `code, description, last_updated`.
+
+**Problem:** Empty or double `.csv.csv` outputs  
+**Solution:** Fixed output path handling by omitting the `.csv` extension when using the shared `save_to_formats()` utility.
+
+**Problem:** Huge files crashing my computer  
+**Solution:** Tested on smaller sample files and structured code to support chunked processing with pandas.
 
 **Problem:** No real test data  
-**Solution:** Created sample data files for testing
+**Solution:** Created synthetic "sample" files in `input/` so each processor can be verified quickly.
+
+**Problem:** Confusion running commands on macOS  
+**Solution:** Standardized all usage examples to use `python3` instead of `python`.
 
 ## Testing
 
@@ -139,7 +183,7 @@ Each processor can be tested individually with the sample data files provided in
 ## Assignment Requirements ✓
 
 - [x] 7 processing scripts
-- [x] Common utilities module  
+- [x] Common utilities module
 - [x] Standardized CSV output
 - [x] Data validation & cleaning
 - [x] Error handling & logging
@@ -151,13 +195,16 @@ Each processor can be tested individually with the sample data files provided in
 
 This project requires the following Python packages:
 
-```
-pandas>=1.5.0  
-requests>=2.28.0  
-lxml>=4.9.0  
-```
+- **pandas >= 1.5.0** – Data manipulation and cleaning
+- **requests >= 2.28.0** – (Optional) For future extension, e.g., downloading codex files directly from official sources
+- **lxml >= 4.9.0** – XML parsing support (useful for ICD-10-WHO and other XML-based codexes)
 
-Install them with:
+It also uses standard Python libraries (included with Python, no need to install):
+- **pathlib** – File and path handling
+- **datetime** – Used to generate timestamps
+- **logging** – Tracks processing steps and errors
+
+You can install all dependencies with:
 
 ```bash
 pip install -r requirements.txt
