@@ -108,6 +108,8 @@ This ensures that:
 - Personal environment files remain private
 - Only the processed outputs and code are version controlled
 
+**Note:** Real medical datasets are very large and may contain sensitive information. For this class project we only include small sample files; in real-world settings raw data is excluded from version control to protect privacy and reduce repository size.
+
 ## Running Individual Processors
 
 ```bash
@@ -119,6 +121,8 @@ python3 scripts/loinc_processor.py
 python3 scripts/rxnorm_processor.py --input input/rxnorm_2024.txt --out output/csv/rxnorm_cleaned
 python3 scripts/npi_processor.py
 ```
+
+**Note:** Only the RxNorm processor requires `--input` and `--out` flags because its source file format differs. All other processors use default paths.
 
 **Expected input files in `input/`:**
 - `snomed_concepts.txt`
