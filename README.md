@@ -116,7 +116,7 @@ python3 scripts/icd10cm_processor.py
 python3 scripts/icd10who_processor.py
 python3 scripts/hcpcs_processor.py
 python3 scripts/loinc_processor.py
-python3 scripts/rxnorm_processor.py
+python3 scripts/rxnorm_processor.py --input input/rxnorm_2024.txt --out output/csv/rxnorm_cleaned
 python3 scripts/npi_processor.py
 ```
 
