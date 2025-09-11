@@ -1,101 +1,101 @@
 code,description,last_updated
-A1001007,Dressing for one wound,2025-09-11 22:15:41
-A2001007,Dressing for two wounds,2025-09-11 22:15:41
-A3001007,Dressing for three wounds,2025-09-11 22:15:41
-A4001007,Dressing for four wounds,2025-09-11 22:15:41
-A5001007,Dressing for five wounds,2025-09-11 22:15:41
-A6001007,Dressing for six wounds,2025-09-11 22:15:41
-A7001007,Dressing for seven wounds,2025-09-11 22:15:41
-A8001007,Dressing for eight wounds,2025-09-11 22:15:41
-A9001007,Dressing for nine or more wounds,2025-09-11 22:15:41
-AA001007,Anesthesia services performed personally by anesthesiologist,2025-09-11 22:15:41
-AB001007,Audiology service furnished personally by an audiologist without a,2025-09-11 22:15:41
-AB002008,physician/npp order for non-acute hearing assessment unrelated to,2025-09-11 22:15:41
-AB003008,"disequilibrium, or hearing aids, or examinations for the purpose of",2025-09-11 22:15:41
-AB004008,"prescribing, fitting, or changing hearing aids; service may be performed once",2025-09-11 22:15:41
-AB005008,"every 12 months, per beneficiary",2025-09-11 22:15:41
-AD001007,Medical supervision by a physician: more than four concurrent anesthesia,2025-09-11 22:15:41
-AD002008,procedures,2025-09-11 22:15:41
-AE001007,Registered dietician,2025-09-11 22:15:41
-AF001007,Specialty physician,2025-09-11 22:15:41
-AG001007,Primary physician,2025-09-11 22:15:41
-AH001007,Clinical psychologist,2025-09-11 22:15:41
-AI001007,Principal physician of record,2025-09-11 22:15:41
-AJ001007,Clinical social worker,2025-09-11 22:15:41
-AK001007,Non participating physician,2025-09-11 22:15:41
-AM001007,"Physician, team member service",2025-09-11 22:15:41
-AO001007,Alternate payment method declined by provider of service,2025-09-11 22:15:41
-AP001007,Determination of refractive state was not performed in the course of diagnostic,2025-09-11 22:15:41
-AP002008,ophthalmological examination,2025-09-11 22:15:41
-AQ001007,Physician providing a service in an unlisted health professional shortage area,2025-09-11 22:15:41
-AQ002008,(hpsa),2025-09-11 22:15:41
-AR001007,Physician provider services in a physician scarcity area,2025-09-11 22:15:41
-AS001007,"Physician assistant, nurse practitioner, or clinical nurse specialist services",2025-09-11 22:15:41
-AS002008,for assistant at surgery,2025-09-11 22:15:41
-AT001007,"Acute treatment (this modifier should be used when reporting service 98940,",2025-09-11 22:15:41
-AT002008,"98941, 98942)",2025-09-11 22:15:41
-AU001007,"Item furnished in conjunction with a urological, ostomy, or tracheostomy supply",2025-09-11 22:15:41
-AV001007,"Item furnished in conjunction with a prosthetic device, prosthetic or orthotic",2025-09-11 22:15:41
-AW001007,Item furnished in conjunction with a surgical dressing,2025-09-11 22:15:41
-AX001007,Item furnished in conjunction with dialysis services,2025-09-11 22:15:41
-AY001007,Item or service furnished to an esrd patient that is not for the treatment of,2025-09-11 22:15:41
-AY002008,esrd,2025-09-11 22:15:41
-AZ001007,Physician providing a service in a dental health professional shortage area for,2025-09-11 22:15:41
-AZ002008,the purpose of an electronic health record incentive payment,2025-09-11 22:15:41
-BA001007,Item furnished in conjunction with parenteral enteral nutrition (pen) services,2025-09-11 22:15:41
-BL001007,Special acquisition of blood and blood products,2025-09-11 22:15:41
-BO001007,"Orally administered nutrition, not by feeding tube",2025-09-11 22:15:41
-BP001007,The beneficiary has been informed of the purchase and rental options and has,2025-09-11 22:15:41
-BP002008,elected to purchase the item,2025-09-11 22:15:41
-BR001007,The beneficiary has been informed of the purchase and rental options and has,2025-09-11 22:15:41
-BR002008,elected to rent the item,2025-09-11 22:15:41
-BU001007,The beneficiary has been informed of the purchase and rental options and after,2025-09-11 22:15:41
-BU002008,30 days has not informed the supplier of his/her decision,2025-09-11 22:15:41
-CA001007,Procedure payable only in the inpatient setting when performed emergently on an,2025-09-11 22:15:41
-CA002008,outpatient who expires prior to admission,2025-09-11 22:15:41
-CB001007,Service ordered by a renal dialysis facility (rdf) physician as part of the,2025-09-11 22:15:41
-CB002008,"esrd beneficiary's dialysis benefit, is not part of the composite rate, and is",2025-09-11 22:15:41
-CB003008,separately reimbursable,2025-09-11 22:15:41
-CC001007,Procedure code change (use 'cc' when the procedure code submitted was changed,2025-09-11 22:15:41
-CC002008,either for administrative reasons or because an incorrect code was filed),2025-09-11 22:15:41
-CD001007,Amcc test has been ordered by an esrd facility or mcp physician that is part of,2025-09-11 22:15:41
-CD002008,the composite rate and is not separately billable,2025-09-11 22:15:41
-CE001007,Amcc test has been ordered by an esrd facility or mcp physician that is a,2025-09-11 22:15:41
-CE002008,composite rate test but is beyond the normal frequency covered under the rate,2025-09-11 22:15:41
-CE003008,and is separately reimbursable based on medical necessity,2025-09-11 22:15:41
-CF001007,Amcc test has been ordered by an esrd facility or mcp physician that is not,2025-09-11 22:15:41
-CF002008,part of the composite rate and is separately billable,2025-09-11 22:15:41
-CG001007,Policy criteria applied,2025-09-11 22:15:41
-CH001007,"0 percent impaired, limited or restricted",2025-09-11 22:15:41
-CI001007,"At least 1 percent but less than 20 percent impaired, limited or restricted",2025-09-11 22:15:41
-CJ001007,"At least 20 percent but less than 40 percent impaired, limited or restricted",2025-09-11 22:15:41
-CK001007,"At least 40 percent but less than 60 percent impaired, limited or restricted",2025-09-11 22:15:41
-CL001007,"At least 60 percent but less than 80 percent impaired, limited or restricted",2025-09-11 22:15:41
-CM001007,"At least 80 percent but less than 100 percent impaired, limited or restricted",2025-09-11 22:15:41
-CN001007,"100 percent impaired, limited or restricted",2025-09-11 22:15:41
-CO001007,Outpatient occupational therapy services furnished in whole or in part by an,2025-09-11 22:15:41
-CO002008,occupational therapy assistant,2025-09-11 22:15:41
-CP001007,Adjunctive service related to a procedure assigned to a comprehensive,2025-09-11 22:15:41
-CP002008,"ambulatory payment classification (c-apc) procedure, but reported on a",2025-09-11 22:15:41
-CP003008,different claim,2025-09-11 22:15:41
-CQ001007,Outpatient physical therapy services furnished in whole or in part by a,2025-09-11 22:15:41
-CQ002008,physical therapist assistant,2025-09-11 22:15:41
-CR001007,Catastrophe/disaster related,2025-09-11 22:15:41
-CS001007,Cost-sharing waived for specified covid-19 testing-related services that result,2025-09-11 22:15:41
-CS002008,in and order for or administration of a covid-19 test and/or used for,2025-09-11 22:15:41
-CS003008,cost-sharing waived preventive services furnished via telehealth in rural,2025-09-11 22:15:41
-CS004008,health clinics and federally qualified health centers during the covid-19,2025-09-11 22:15:41
-CS005008,public health emergency,2025-09-11 22:15:41
-CT001007,Computed tomography services furnished using equipment that does not meet each,2025-09-11 22:15:41
-CT002008,of the attributes of the national electrical manufacturers association (nema),2025-09-11 22:15:41
-CT003008,xr-29-2013 standard,2025-09-11 22:15:41
-DA001007,Oral health assessment by a licensed health professional other than a dentist,2025-09-11 22:15:41
-E1001007,"Upper left, eyelid",2025-09-11 22:15:41
-E2001007,"Lower left, eyelid",2025-09-11 22:15:41
-E3001007,"Upper right, eyelid",2025-09-11 22:15:41
-E4001007,"Lower right, eyelid",2025-09-11 22:15:41
-EA001007,Erythropoietic stimulating agent (esa) administered to treat anemia due to,2025-09-11 22:15:41
-EA002008,anti-cancer chemotherapy,2025-09-11 22:15:41
-EB001007,Erythropoietic stimulating agent (esa) administered to treat anemia due to,2025-09-11 22:15:41
-EB002008,anti-cancer radiotherapy,2025-09-11 22:15:41
-EC001007,Erythropoietic stimulating agent (esa) administered to treat anemia not due to,2025-09-11 22:15:41
+A1001007,Dressing for one wound,2025-09-11 22:45:24
+A2001007,Dressing for two wounds,2025-09-11 22:45:24
+A3001007,Dressing for three wounds,2025-09-11 22:45:24
+A4001007,Dressing for four wounds,2025-09-11 22:45:24
+A5001007,Dressing for five wounds,2025-09-11 22:45:24
+A6001007,Dressing for six wounds,2025-09-11 22:45:24
+A7001007,Dressing for seven wounds,2025-09-11 22:45:24
+A8001007,Dressing for eight wounds,2025-09-11 22:45:24
+A9001007,Dressing for nine or more wounds,2025-09-11 22:45:24
+AA001007,Anesthesia services performed personally by anesthesiologist,2025-09-11 22:45:24
+AB001007,Audiology service furnished personally by an audiologist without a,2025-09-11 22:45:24
+AB002008,physician/npp order for non-acute hearing assessment unrelated to,2025-09-11 22:45:24
+AB003008,"disequilibrium, or hearing aids, or examinations for the purpose of",2025-09-11 22:45:24
+AB004008,"prescribing, fitting, or changing hearing aids; service may be performed once",2025-09-11 22:45:24
+AB005008,"every 12 months, per beneficiary",2025-09-11 22:45:24
+AD001007,Medical supervision by a physician: more than four concurrent anesthesia,2025-09-11 22:45:24
+AD002008,procedures,2025-09-11 22:45:24
+AE001007,Registered dietician,2025-09-11 22:45:24
+AF001007,Specialty physician,2025-09-11 22:45:24
+AG001007,Primary physician,2025-09-11 22:45:24
+AH001007,Clinical psychologist,2025-09-11 22:45:24
+AI001007,Principal physician of record,2025-09-11 22:45:24
+AJ001007,Clinical social worker,2025-09-11 22:45:24
+AK001007,Non participating physician,2025-09-11 22:45:24
+AM001007,"Physician, team member service",2025-09-11 22:45:24
+AO001007,Alternate payment method declined by provider of service,2025-09-11 22:45:24
+AP001007,Determination of refractive state was not performed in the course of diagnostic,2025-09-11 22:45:24
+AP002008,ophthalmological examination,2025-09-11 22:45:24
+AQ001007,Physician providing a service in an unlisted health professional shortage area,2025-09-11 22:45:24
+AQ002008,(hpsa),2025-09-11 22:45:24
+AR001007,Physician provider services in a physician scarcity area,2025-09-11 22:45:24
+AS001007,"Physician assistant, nurse practitioner, or clinical nurse specialist services",2025-09-11 22:45:24
+AS002008,for assistant at surgery,2025-09-11 22:45:24
+AT001007,"Acute treatment (this modifier should be used when reporting service 98940,",2025-09-11 22:45:24
+AT002008,"98941, 98942)",2025-09-11 22:45:24
+AU001007,"Item furnished in conjunction with a urological, ostomy, or tracheostomy supply",2025-09-11 22:45:24
+AV001007,"Item furnished in conjunction with a prosthetic device, prosthetic or orthotic",2025-09-11 22:45:24
+AW001007,Item furnished in conjunction with a surgical dressing,2025-09-11 22:45:24
+AX001007,Item furnished in conjunction with dialysis services,2025-09-11 22:45:24
+AY001007,Item or service furnished to an esrd patient that is not for the treatment of,2025-09-11 22:45:24
+AY002008,esrd,2025-09-11 22:45:24
+AZ001007,Physician providing a service in a dental health professional shortage area for,2025-09-11 22:45:24
+AZ002008,the purpose of an electronic health record incentive payment,2025-09-11 22:45:24
+BA001007,Item furnished in conjunction with parenteral enteral nutrition (pen) services,2025-09-11 22:45:24
+BL001007,Special acquisition of blood and blood products,2025-09-11 22:45:24
+BO001007,"Orally administered nutrition, not by feeding tube",2025-09-11 22:45:24
+BP001007,The beneficiary has been informed of the purchase and rental options and has,2025-09-11 22:45:24
+BP002008,elected to purchase the item,2025-09-11 22:45:24
+BR001007,The beneficiary has been informed of the purchase and rental options and has,2025-09-11 22:45:24
+BR002008,elected to rent the item,2025-09-11 22:45:24
+BU001007,The beneficiary has been informed of the purchase and rental options and after,2025-09-11 22:45:24
+BU002008,30 days has not informed the supplier of his/her decision,2025-09-11 22:45:24
+CA001007,Procedure payable only in the inpatient setting when performed emergently on an,2025-09-11 22:45:24
+CA002008,outpatient who expires prior to admission,2025-09-11 22:45:24
+CB001007,Service ordered by a renal dialysis facility (rdf) physician as part of the,2025-09-11 22:45:24
+CB002008,"esrd beneficiary's dialysis benefit, is not part of the composite rate, and is",2025-09-11 22:45:24
+CB003008,separately reimbursable,2025-09-11 22:45:24
+CC001007,Procedure code change (use 'cc' when the procedure code submitted was changed,2025-09-11 22:45:24
+CC002008,either for administrative reasons or because an incorrect code was filed),2025-09-11 22:45:24
+CD001007,Amcc test has been ordered by an esrd facility or mcp physician that is part of,2025-09-11 22:45:24
+CD002008,the composite rate and is not separately billable,2025-09-11 22:45:24
+CE001007,Amcc test has been ordered by an esrd facility or mcp physician that is a,2025-09-11 22:45:24
+CE002008,composite rate test but is beyond the normal frequency covered under the rate,2025-09-11 22:45:24
+CE003008,and is separately reimbursable based on medical necessity,2025-09-11 22:45:24
+CF001007,Amcc test has been ordered by an esrd facility or mcp physician that is not,2025-09-11 22:45:24
+CF002008,part of the composite rate and is separately billable,2025-09-11 22:45:24
+CG001007,Policy criteria applied,2025-09-11 22:45:24
+CH001007,"0 percent impaired, limited or restricted",2025-09-11 22:45:24
+CI001007,"At least 1 percent but less than 20 percent impaired, limited or restricted",2025-09-11 22:45:24
+CJ001007,"At least 20 percent but less than 40 percent impaired, limited or restricted",2025-09-11 22:45:24
+CK001007,"At least 40 percent but less than 60 percent impaired, limited or restricted",2025-09-11 22:45:24
+CL001007,"At least 60 percent but less than 80 percent impaired, limited or restricted",2025-09-11 22:45:24
+CM001007,"At least 80 percent but less than 100 percent impaired, limited or restricted",2025-09-11 22:45:24
+CN001007,"100 percent impaired, limited or restricted",2025-09-11 22:45:24
+CO001007,Outpatient occupational therapy services furnished in whole or in part by an,2025-09-11 22:45:24
+CO002008,occupational therapy assistant,2025-09-11 22:45:24
+CP001007,Adjunctive service related to a procedure assigned to a comprehensive,2025-09-11 22:45:24
+CP002008,"ambulatory payment classification (c-apc) procedure, but reported on a",2025-09-11 22:45:24
+CP003008,different claim,2025-09-11 22:45:24
+CQ001007,Outpatient physical therapy services furnished in whole or in part by a,2025-09-11 22:45:24
+CQ002008,physical therapist assistant,2025-09-11 22:45:24
+CR001007,Catastrophe/disaster related,2025-09-11 22:45:24
+CS001007,Cost-sharing waived for specified covid-19 testing-related services that result,2025-09-11 22:45:24
+CS002008,in and order for or administration of a covid-19 test and/or used for,2025-09-11 22:45:24
+CS003008,cost-sharing waived preventive services furnished via telehealth in rural,2025-09-11 22:45:24
+CS004008,health clinics and federally qualified health centers during the covid-19,2025-09-11 22:45:24
+CS005008,public health emergency,2025-09-11 22:45:24
+CT001007,Computed tomography services furnished using equipment that does not meet each,2025-09-11 22:45:24
+CT002008,of the attributes of the national electrical manufacturers association (nema),2025-09-11 22:45:24
+CT003008,xr-29-2013 standard,2025-09-11 22:45:24
+DA001007,Oral health assessment by a licensed health professional other than a dentist,2025-09-11 22:45:24
+E1001007,"Upper left, eyelid",2025-09-11 22:45:24
+E2001007,"Lower left, eyelid",2025-09-11 22:45:24
+E3001007,"Upper right, eyelid",2025-09-11 22:45:24
+E4001007,"Lower right, eyelid",2025-09-11 22:45:24
+EA001007,Erythropoietic stimulating agent (esa) administered to treat anemia due to,2025-09-11 22:45:24
+EA002008,anti-cancer chemotherapy,2025-09-11 22:45:24
+EB001007,Erythropoietic stimulating agent (esa) administered to treat anemia due to,2025-09-11 22:45:24
+EB002008,anti-cancer radiotherapy,2025-09-11 22:45:24
+EC001007,Erythropoietic stimulating agent (esa) administered to treat anemia not due to,2025-09-11 22:45:24
