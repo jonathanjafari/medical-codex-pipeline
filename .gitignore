@@ -35,5 +35,13 @@ logs/*
 *.zip
 *.tar.gz
 *.bak
-input/icd10cm_order_2025.csv
-input/icd102019syst_codes_WHO.txt
+
+# ----------------------
+# Input data handling
+# ----------------------
+# Ignore all raw CSV/TXT files
+input/*.csv
+input/*.txt
+
+# Keep small sample files for testing
+!input/*sample*
