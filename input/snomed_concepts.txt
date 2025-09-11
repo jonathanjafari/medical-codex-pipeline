@@ -1,4 +1,0 @@
-code,description
-123456789,Sample condition 1
-987654321,Sample condition 2
-555111222,Sample condition 3

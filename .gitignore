@@ -26,13 +26,17 @@ Thumbs.db
 # Project-specific ignores
 # ----------------------
 
-# Ignore full raw vocab datasets (too large for GitHub)
+# Ignore large raw vocab datasets
 input/*.RRF
 input/sct2_*.txt
 input/SnomedCT_*/
 input/RxNorm_*/
 
-# Allow sample inputs (keep them in GitHub)
+# Ignore old placeholder files
+input/rxnorm_2024.txt
+input/snomed_concepts.txt
+
+# Keep sample inputs (always include these in Git)
 !input/*sample*
 
-# Keep standardized outputs (DO NOT ignore them — included in GitHub)
+# Keep outputs (commit standardized outputs to GitHub)
