@@ -1,0 +1,101 @@
+code,description,is_valid
+100000-9,Health informatics pioneer and the father of LOINC,True
+100001-7,Health informatics pioneer and cofounder of LOINC,True
+100002-5,Specimen care is maintained,True
+100003-3,Team communication is maintained throughout care,True
+100004-1,Demonstrates knowledge of the expected psychosocial responses to the procedure,True
+100005-8,Demonstrates knowledge of nutritional management related to the procedure,True
+100006-6,Demonstrates knowledge of medication management,True
+100007-4,Demonstrates knowledge of pain management,True
+10000-8,R wave duration.lead AVR,True
+100008-2,Demonstrates knowledge of wound management,True
+100009-0,Demonstrates knowledge of the procedure and expected results,True
+100010-8,"No injury related to procedure equipment, medical supplies, or instrumentation",True
+100011-6,No injury related to an electrical source,True
+100012-4,Participates in decisions affecting the patient's plan of care,True
+100013-2,Participates in the discharge process,True
+100014-0,Psychosocial health is maintained at or improved from baseline,True
+100015-7,No injury related to positioning due to care or procedure,True
+10001-6,R wave duration.lead I,True
+100016-5,No injury related to a laser source,True
+100017-3,Perioperative nursing data set outcomes panel,True
+100018-1,Note,True
+100019-9,ALK gene targeted mutation analysis,True
+100020-7,GNA11 gene targeted mutation analysis,True
+100021-5,GNAQ gene targeted mutation analysis,True
+100022-3,IDH1 gene targeted mutation analysis,True
+100023-1,IDH2 gene targeted mutation analysis,True
+10002-4,R wave duration.lead II,True
+100024-9,SETBP1 gene targeted mutation analysis,True
+100025-6,SRSF2 gene targeted mutation analysis,True
+100026-4,MET gene targeted mutation analysis,True
+100027-2,SMAD4 gene targeted mutation analysis,True
+100028-0,FBXW7 gene targeted mutation analysis,True
+100029-8,Cancer related multigene analysis,True
+100030-6,Axis I: Temporal aspects score,True
+100031-4,Axis II: Spatial aspects score,True
+10003-2,R wave duration.lead III,True
+100032-2,Axis III: Drug taking behavior score,True
+100033-0,Axis IV: Utilization of the health care system score,True
+100034-8,Provider of automated external defibrillator use,True
+100035-5,Exam finding location,True
+100036-3,Exam finding location,True
+100037-1,Patient contact disposition,True
+100038-9,Patient evaluation disposition,True
+100039-7,Crew disposition for patient care,True
+10004-0,R wave duration.lead V1,True
+100040-5,Patient transport disposition,True
+100041-3,Aminoglycoside,True
+100042-1,Atovaquone,True
+100043-9,Azithromycin+Ethambutol,True
+100044-7,Cefcapene,True
+100045-4,Cefozopran,True
+100046-2,Cefquinome,True
+100047-0,Cefteram,True
+100048-8,Clarithromycin+Ethambutol,True
+100049-6,Eravacycline,True
+100050-4,Erythromycin+Ethambutol,True
+100051-2,Ethambutol+rifAMPin,True
+100052-0,Flomoxef,True
+100053-8,Fluoroquinolone,True
+100054-6,Gamithromycin,True
+100055-3,Optochin,True
+100056-1,Panipenem,True
+10005-7,R wave duration.lead V2,True
+100057-9,Prothionamide,True
+100058-7,Prulifloxacin,True
+100059-5,Rifapentine,True
+100060-3,Tildipirosin,True
+100061-1,Tosufloxacin,True
+100062-9,Standard Dermatology Outcome Measures panel,True
+100063-7,Primary skin concern,True
+100064-5,Itch severity,True
+10006-5,R wave duration.lead V3,True
+100065-2,Satisfied with treatment,True
+100066-0,Specular microscopy panel,True
+100067-8,Image magnification,True
+100068-6,Fixation point,True
+100069-4,Fixation point,True
+100070-2,Cell density,True
+100071-0,Cell density,True
+100072-8,Coefficient of variation,True
+10007-3,R wave duration.lead V4,True
+100073-6,Coefficient of variation,True
+100074-4,Hexagonality,True
+100075-1,Hexagonality,True
+100076-9,Endothelial cells counted,True
+100077-7,Endothelial cells counted,True
+100078-5,Endothelial cell area.min,True
+100079-3,Endothelial cell area.min,True
+100080-1,Endothelial cell area.max,True
+10008-1,R wave duration.lead V5,True
+100081-9,Endothelial cell area.max,True
+100082-7,Endothelial cell area.mean,True
+100083-5,Endothelial cell area.mean,True
+100084-3,Cell area.standard deviation,True
+100085-0,Cell area.standard deviation,True
+100086-8,Analysis method,True
+100087-6,Toxocara canis 24-35kD Ab.IgG,True
+100088-4,Taenia solium larva Ab bands panel,True
+100089-2,Taenia solium larva 6-8kD Ab,True
+1000-9,DBG Ab,True

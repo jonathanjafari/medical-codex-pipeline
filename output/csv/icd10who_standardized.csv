@@ -1,0 +1,101 @@
+code,description,is_valid
+A00,Cholera,True
+A00,"Cholera due to Vibrio cholerae 01, biovar cholerae",True
+A00,"Cholera due to Vibrio cholerae 01, biovar eltor",True
+A00,"Cholera, unspecified",True
+A00,Typhoid and paratyphoid fevers,True
+A00,Typhoid fever,True
+A00,Paratyphoid fever A,True
+A00,Paratyphoid fever B,True
+A00,Paratyphoid fever C,True
+A00,"Paratyphoid fever, unspecified",True
+A00,Other salmonella infections,True
+A00,Salmonella enteritis,True
+A00,Salmonella sepsis,True
+A00,Localized salmonella infections,True
+A00,Other specified salmonella infections,True
+A00,"Salmonella infection, unspecified",True
+A00,Shigellosis,True
+A00,Shigellosis due to Shigella dysenteriae,True
+A00,Shigellosis due to Shigella flexneri,True
+A00,Shigellosis due to Shigella boydii,True
+A00,Shigellosis due to Shigella sonnei,True
+A00,Other shigellosis,True
+A00,"Shigellosis, unspecified",True
+A00,Other bacterial intestinal infections,True
+A00,Enteropathogenic Escherichia coli infection,True
+A00,Enterotoxigenic Escherichia coli infection,True
+A00,Enteroinvasive Escherichia coli infection,True
+A00,Enterohaemorrhagic Escherichia coli infection,True
+A00,Other intestinal Escherichia coli infections,True
+A00,Campylobacter enteritis,True
+A00,Enteritis due to Yersinia enterocolitica,True
+A00,Enterocolitis due to Clostridium difficile,True
+A00,Other specified bacterial intestinal infections,True
+A00,"Bacterial intestinal infection, unspecified",True
+A00,"Other bacterial foodborne intoxications, not elsewhere classified",True
+A00,Foodborne staphylococcal intoxication,True
+A00,Botulism,True
+A00,Foodborne Clostridium perfringens [Clostridium welchii] intoxication,True
+A00,Foodborne Vibrio parahaemolyticus intoxication,True
+A00,Foodborne Bacillus cereus intoxication,True
+A00,Other specified bacterial foodborne intoxications,True
+A00,"Bacterial foodborne intoxication, unspecified",True
+A00,Amoebiasis,True
+A00,Acute amoebic dysentery,True
+A00,Chronic intestinal amoebiasis,True
+A00,Amoebic nondysenteric colitis,True
+A00,Amoeboma of intestine,True
+A00,Amoebic liver abscess,True
+A00,Amoebic lung abscess,True
+A00,Amoebic brain abscess,True
+A00,Cutaneous amoebiasis,True
+A00,Amoebic infection of other sites,True
+A00,"Amoebiasis, unspecified",True
+A00,Other protozoal intestinal diseases,True
+A00,Balantidiasis,True
+A00,Giardiasis [lambliasis],True
+A00,Cryptosporidiosis,True
+A00,Isosporiasis,True
+A00,Other specified protozoal intestinal diseases,True
+A00,"Protozoal intestinal disease, unspecified",True
+A00,Viral and other specified intestinal infections,True
+A00,Rotaviral enteritis,True
+A00,Acute gastroenteropathy due to Norovirus,True
+A00,Adenoviral enteritis,True
+A00,Other viral enteritis,True
+A00,"Viral intestinal infection, unspecified",True
+A00,Other specified intestinal infections,True
+A00,Other gastroenteritis and colitis of infectious and unspecified origin,True
+A00,Other and unspecified gastroenteritis and colitis of infectious origin,True
+A00,Gastroenteritis and colitis of unspecified origin,True
+A15,"Respiratory tuberculosis, bacteriologically and histologically confirmed",True
+A15,"Tuberculosis of lung, confirmed by sputum microscopy with or without culture",True
+A15,"Tuberculosis of lung, confirmed by culture only",True
+A15,"Tuberculosis of lung, confirmed histologically",True
+A15,"Tuberculosis of lung, confirmed by unspecified means",True
+A15,"Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically",True
+A15,"Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically",True
+A15,"Tuberculous pleurisy, confirmed bacteriologically and histologically",True
+A15,"Primary respiratory tuberculosis, confirmed bacteriologically and histologically",True
+A15,"Other respiratory tuberculosis, confirmed bacteriologically and histologically",True
+A15,"Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically",True
+A15,"Respiratory tuberculosis, not confirmed bacteriologically or histologically",True
+A15,"Tuberculosis of lung, bacteriologically and histologically negative",True
+A15,"Tuberculosis of lung, bacteriological and histological examination not done",True
+A15,"Tuberculosis of lung, without mention of bacteriological or histological confirmation",True
+A15,"Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation",True
+A15,"Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation",True
+A15,"Tuberculous pleurisy, without mention of bacteriological or histological confirmation",True
+A15,Primary respiratory tuberculosis without mention of bacteriological or histological confirmation,True
+A15,"Other respiratory tuberculosis, without mention of bacteriological or histological confirmation",True
+A15,"Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation",True
+A15,Tuberculosis of nervous system,True
+A15,Tuberculous meningitis,True
+A15,Meningeal tuberculoma,True
+A15,Other tuberculosis of nervous system,True
+A15,"Tuberculosis of nervous system, unspecified",True
+A15,Tuberculosis of other organs,True
+A15,Tuberculosis of bones and joints,True
+A15,Tuberculosis of genitourinary system,True
+A15,Tuberculous peripheral lymphadenopathy,True
