@@ -25,7 +25,7 @@ def load_rxnorm_data(filepath: str) -> pd.DataFrame:
 
 def clean_rxnorm_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize RxNorm codes."""
-    df = raw[(raw["LAT"] == "ENG") & (raw["SAB"] == "RXNORM")].copy()
+    df = raw[raw["LAT"] == "ENG"].copy()
 
     # Keep only RXCUI and STR
     df = df.rename(columns={"RXCUI": "code", "STR": "description"})

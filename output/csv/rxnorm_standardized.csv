@@ -1,101 +1,85 @@
 code,description,last_updated
-38,Parlodel,2025-09-11 15:27:34
-44,mesna,2025-09-11 15:27:34
-61,beta-alanine,2025-09-11 15:27:34
-73,docosahexaenoate,2025-09-11 15:27:34
-74,4-aminobenzoic acid,2025-09-11 15:27:34
-74,aminobenzoic acid,2025-09-11 15:27:34
-90,eicosapentaenoic acid,2025-09-11 15:27:34
-94,5-hydroxytryptophan,2025-09-11 15:27:34
-94,oxitriptan,2025-09-11 15:27:34
-97,ticlopidine hydrochloride,2025-09-11 15:27:34
-99,6-aminocaproic acid,2025-09-11 15:27:34
-99,aminocaproic acid,2025-09-11 15:27:34
-103,mercaptopurine,2025-09-11 15:27:34
-110,oxyquinoline,2025-09-11 15:27:34
-149,acebutolol,2025-09-11 15:27:34
-154,acenocoumarol,2025-09-11 15:27:34
-155,acepromazine,2025-09-11 15:27:34
-161,acetaminophen,2025-09-11 15:27:34
-162,acetanilide,2025-09-11 15:27:34
-164,acetate,2025-09-11 15:27:34
-167,acetazolamide,2025-09-11 15:27:34
-167,acetaZOLAMIDE,2025-09-11 15:27:34
-168,acetic acid,2025-09-11 15:27:34
-173,acetohexamide,2025-09-11 15:27:34
-173,acetoHEXAMIDE,2025-09-11 15:27:34
-178,acetone,2025-09-11 15:27:34
-193,acetylcarnitine,2025-09-11 15:27:34
-194,acetylcholine,2025-09-11 15:27:34
-195,acetylcholinesterase,2025-09-11 15:27:34
-197,acetylcysteine,2025-09-11 15:27:34
-199,acetyldigoxins,2025-09-11 15:27:34
-199,acetyldigoxin,2025-09-11 15:27:34
-200,acetylene,2025-09-11 15:27:34
-211,Topicycline,2025-09-11 15:27:34
-236,acidulated phosphate fluoride,2025-09-11 15:27:34
-239,aclarubicin,2025-09-11 15:27:34
-242,aconite,2025-09-11 15:27:34
-249,acriflavine,2025-09-11 15:27:34
-249,euflavine,2025-09-11 15:27:34
-270,spectinomycin,2025-09-11 15:27:34
-272,activated charcoal,2025-09-11 15:27:34
-281,acyclovir,2025-09-11 15:27:34
-290,adenine,2025-09-11 15:27:34
-296,adenosine,2025-09-11 15:27:34
-309,adenosine monophosphate,2025-09-11 15:27:34
-309,adenosine 5'-monophosphate,2025-09-11 15:27:34
-309,5'-adenylic acid,2025-09-11 15:27:34
-318,adenosine triphosphate,2025-09-11 15:27:34
-318,ATP,2025-09-11 15:27:34
-332,Adipex-P,2025-09-11 15:27:34
-333,adiphenine,2025-09-11 15:27:34
-362,epinephrine hydrochloride,2025-09-11 15:27:34
-362,EPINEPHrine hydrochloride,2025-09-11 15:27:34
-376,corticotropin,2025-09-11 15:27:34
-388,polymyxin B sulfate,2025-09-11 15:27:34
-397,agar,2025-09-11 15:27:34
-411,air,2025-09-11 15:27:34
-411,medical air,2025-09-11 15:27:34
-423,ajmaline,2025-09-11 15:27:34
-426,alanine,2025-09-11 15:27:34
-426,L-alanine,2025-09-11 15:27:34
-430,albendazole,2025-09-11 15:27:34
-435,albuterol,2025-09-11 15:27:34
-448,ethanol,2025-09-11 15:27:34
-460,alcuronium,2025-09-11 15:27:34
-479,Alfenta,2025-09-11 15:27:34
-480,alfentanil,2025-09-11 15:27:34
-480,ALfentanil,2025-09-11 15:27:34
-508,allantoin,2025-09-11 15:27:34
-513,allethrin,2025-09-11 15:27:34
-516,allobarbital,2025-09-11 15:27:34
-519,allopurinol,2025-09-11 15:27:34
-525,allylestrenol,2025-09-11 15:27:34
-528,almitrine,2025-09-11 15:27:34
-529,almitrine dimesylate,2025-09-11 15:27:34
-535,alpha 1-antitrypsin,2025-09-11 15:27:34
-535,alfa1 antitrypsin,2025-09-11 15:27:34
-560,alpha-amylase,2025-09-11 15:27:34
-569,eflornithine,2025-09-11 15:27:34
-594,alphaprodine,2025-09-11 15:27:34
-595,algestone,2025-09-11 15:27:34
-596,alprazolam,2025-09-11 15:27:34
-596,ALPRAZolam,2025-09-11 15:27:34
-597,alprenolol,2025-09-11 15:27:34
-598,alprostadil,2025-09-11 15:27:34
-599,alseroxylon,2025-09-11 15:27:34
-611,aluminum aspirin,2025-09-11 15:27:34
-612,aluminum hydroxide,2025-09-11 15:27:34
-612,aluminium hydroxide,2025-09-11 15:27:34
-613,aluminum hydroxide gel,2025-09-11 15:27:34
-615,aluminum oxide,2025-09-11 15:27:34
-615,aluminium oxide,2025-09-11 15:27:34
-620,amantadine,2025-09-11 15:27:34
-621,amantadine sulfate,2025-09-11 15:27:34
-623,ambenonium,2025-09-11 15:27:34
-624,ambenonium chloride,2025-09-11 15:27:34
-625,ambroxol,2025-09-11 15:27:34
-626,amdinocillin,2025-09-11 15:27:34
-626,mecillinam,2025-09-11 15:27:34
-627,amdinocillin pivoxil,2025-09-11 15:27:34
+3,"1,4-alpha-Glucan branching enzyme",2025-09-11 21:19:14
+3,"1,4-alpha-Glucan branching enzyme (substance)",2025-09-11 21:19:14
+3,"Amylo-(1,4,6)-transglycosylase",2025-09-11 21:19:14
+3,Branching enzyme,2025-09-11 21:19:14
+19,17-hydrocorticosteroid,2025-09-11 21:19:14
+19,17-hydroxycorticoid,2025-09-11 21:19:14
+19,17-hydroxycorticosteroid,2025-09-11 21:19:14
+19,17-hydroxycorticosteroid (substance),2025-09-11 21:19:14
+21,17-ketosteroid,2025-09-11 21:19:14
+21,17-ketosteroid (substance),2025-09-11 21:19:14
+21,17-oxosteroid,2025-09-11 21:19:14
+22,"11-beta,18,21-trihydroxypregn-4-ene-3,20-dione",2025-09-11 21:19:14
+22,18-hydroxycorticosterone,2025-09-11 21:19:14
+22,18-hydroxycorticosterone (substance),2025-09-11 21:19:14
+33,2-acetolactate mutase,2025-09-11 21:19:14
+33,2-acetolactate mutase (substance),2025-09-11 21:19:14
+38,Parlodel,2025-09-11 21:19:14
+43,2-isopropylmalate synthase,2025-09-11 21:19:14
+43,2-isopropylmalate synthase (substance),2025-09-11 21:19:14
+44,Mesna,2025-09-11 21:19:14
+44,Mesna-containing product,2025-09-11 21:19:14
+44,Sodium 2-mercaptoethanesulfonate,2025-09-11 21:19:14
+44,mesna,2025-09-11 21:19:14
+44,MESNA,2025-09-11 21:19:14
+44,Product containing mesna (medicinal product),2025-09-11 21:19:14
+44,Mesna (substance),2025-09-11 21:19:14
+47,3-METHYLCHOLANTHRENE,2025-09-11 21:19:14
+48,"24,25-DHCC - 24,25-Dihydroxycholecalciferol",2025-09-11 21:19:14
+48,"24,25-dihydroxycholecalciferol",2025-09-11 21:19:14
+48,"24,25-dihydroxyvitamin D3",2025-09-11 21:19:14
+48,"24,25-dihydroxyvitamin D3 (substance)",2025-09-11 21:19:14
+48,24R-dihydroxycalcidiol,2025-09-11 21:19:14
+49,25-hydroxycholecalciferol 1-hydroxylase,2025-09-11 21:19:14
+49,25-hydroxycholecalciferol 1-mono-oxygenase,2025-09-11 21:19:14
+49,Calcidiol 1-monooxygenase,2025-09-11 21:19:14
+49,Calcidiol 1-monooxygenase (substance),2025-09-11 21:19:14
+50,25-hydroxyvitamin D2,2025-09-11 21:19:14
+50,25-hydroxy ergocalciferol,2025-09-11 21:19:14
+50,25-hydroxyergocalciferol,2025-09-11 21:19:14
+50,25-hydroxyergocalciferol (substance),2025-09-11 21:19:14
+50,Ercalcidiol,2025-09-11 21:19:14
+52,"3',5'-cyclic-nucleotide phosphodiesterase",2025-09-11 21:19:14
+52,"3',5'-cyclic-nucleotide phosphodiesterase (substance)",2025-09-11 21:19:14
+53,"3',5'-cyclic-GMP phosphodiesterase",2025-09-11 21:19:14
+53,"3',5'-cyclic-guanosine monophosphate phosphodiesterase",2025-09-11 21:19:14
+53,"3',5'-cyclic-guanosine monophosphate phosphodiesterase (substance)",2025-09-11 21:19:14
+60,"3,4-methylenedioxyamphetamine",2025-09-11 21:19:14
+60,MDA,2025-09-11 21:19:14
+60,Methylenedioxyamphetamine,2025-09-11 21:19:14
+60,Tenamfetamina,2025-09-11 21:19:14
+60,Tenamfetamine,2025-09-11 21:19:14
+60,Tenamfetaminum,2025-09-11 21:19:14
+60,Methylenedioxyamphetamine (substance),2025-09-11 21:19:14
+61,Beta alanine,2025-09-11 21:19:14
+61,Beta alanine (substance),2025-09-11 21:19:14
+61,beta-alanine,2025-09-11 21:19:14
+61,3-aminopropanoic acid,2025-09-11 21:19:14
+61,3-aminopropionic acid,2025-09-11 21:19:14
+61,beta-Alanine,2025-09-11 21:19:14
+61,β-alanine,2025-09-11 21:19:14
+61,β-aminopropionic acid,2025-09-11 21:19:14
+61,ω-aminopropionic acid,2025-09-11 21:19:14
+61,BETA-ALANINE,2025-09-11 21:19:14
+61,.BETA.-ALANINE,2025-09-11 21:19:14
+63,meglutol,2025-09-11 21:19:14
+72,3-oxoacyl-acyl-carrier-protein synthase,2025-09-11 21:19:14
+72,3-oxoacyl-acyl-carrier-protein synthase (substance),2025-09-11 21:19:14
+73,docosahexaenoate,2025-09-11 21:19:14
+74,Aminobenzoic Acid,2025-09-11 21:19:14
+74,Product containing para-aminobenzoic acid (medicinal product),2025-09-11 21:19:14
+74,Para-Aminobenzoic Acid (PABA),2025-09-11 21:19:14
+74,1-Amino-4-carboxybenzene,2025-09-11 21:19:14
+74,4-Carboxyaniline,2025-09-11 21:19:14
+74,p-Aminobenzoic acid,2025-09-11 21:19:14
+74,p-Carboxyaniline,2025-09-11 21:19:14
+74,p-Carboxyphenylamine,2025-09-11 21:19:14
+74,para-Aminobenzoic acid,2025-09-11 21:19:14
+74,4-aminobenzoic acid,2025-09-11 21:19:14
+74,Para-aminobenzoic acid-containing product,2025-09-11 21:19:14
+74,PABA,2025-09-11 21:19:14
+74,Para-aminobenzoic acid,2025-09-11 21:19:14
+74,paraaminobenzoic acid,2025-09-11 21:19:14
+74,Para-aminobenzoic acid (substance),2025-09-11 21:19:14
+74,PARA-AMINOBENZOIC ACID,2025-09-11 21:19:14

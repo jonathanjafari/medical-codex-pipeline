@@ -40,11 +40,11 @@ def save_to_formats(df: pd.DataFrame, base_filename: str, limit: int = 100) -> N
     import logging
     try:
         if limit is not None:
-            df = df.head(limit)
+            # Use .copy() to avoid SettingWithCopyWarning
+            df = df.head(limit).copy()
 
-        # Add last_updated column with current timestamp
-        from datetime import datetime
-        df.loc[:, "last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+        # Add last_updated column cleanly with assign()
+        df = df.assign(last_updated=datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S"))
 
         Path(base_filename).parent.mkdir(parents=True, exist_ok=True)
         out_path = f"{base_filename}.csv"

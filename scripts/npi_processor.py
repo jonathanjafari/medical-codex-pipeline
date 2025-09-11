@@ -3,22 +3,24 @@ import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import pandas as pd
-from utils.common_functions import init_logging, validate_code_format, save_to_formats
+from utils.common_functions import init_logging, save_to_formats
 
 
-def load_npi_data(filepath):
-    """Load raw NPI data file (sample only)."""
-    return pd.read_csv(filepath, sep=",", dtype=str, nrows=10000)  # limit to 10k rows
+def load_npi_data(filepath: str) -> pd.DataFrame:
+    """Load raw NPI data from the official NPPES file (limited to 10,000 rows for performance)."""
+    return pd.read_csv(filepath, sep=",", dtype=str, nrows=10000)
 
 
 def clean_npi_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize NPI records."""
     df = raw.copy()
 
-    # Standardize code column
+    # Rename NPI column to "code"
     df = df.rename(columns={"NPI": "code"})
 
-    # Build description column (individuals get Last, First + credential; orgs get org name)
+    # Build description:
+    # - Individuals → "Last, First Credential"
+    # - Organizations → Org name
     df["description"] = df.apply(
         lambda row: (
             f"{row['Provider Last Name (Legal Name)']}, {row['Provider First Name']} {row['Provider Credential Text'] or ''}".strip()
@@ -31,7 +33,7 @@ def clean_npi_data(raw: pd.DataFrame) -> pd.DataFrame:
     # Keep only code + description
     df = df[["code", "description"]].dropna()
 
-    # Strip spaces
+    # Clean up whitespace
     df["code"] = df["code"].str.strip()
     df["description"] = df["description"].str.strip()
 
