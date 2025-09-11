@@ -36,7 +36,7 @@ mkdir output/csv
 ## How It Works
 
 Each processor script:
-1. Loads a data file from `input/`
+1. Loads a data file from `input/` (local only, ignored by GitHub)
 2. Cleans and standardizes codes + descriptions
 3. Validates codes with regex rules
 4. Saves results to `output/csv/`
@@ -59,16 +59,10 @@ medical-codex-pipeline/
 │   ├── loinc_processor.py
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
-├── input/            # Sample + public data files
-│   ├── snomed_sample.txt
-│   ├── icd10cm_sample.csv
-│   ├── icd10who_sample.txt
-│   ├── HCPC2025_OCT_ANWEB.csv        # Full, public dataset
-│   ├── Loinc_sample.csv
-│   ├── npidata_sample.csv
-│   └── rxnorm_sample.RRF
-├── output/csv/       # Clean standardized outputs
-├── utils/            # Common functions
+├── input/             # Raw datasets (local only, ignored in Git)
+│   └── (place full vocabularies here before running)
+├── output/csv/        # Clean standardized outputs
+├── utils/             # Common functions
 │   └── common_functions.py
 ├── logs/
 ├── .gitignore
@@ -78,39 +72,18 @@ medical-codex-pipeline/
 
 ## Input Files
 
-- Full datasets (ICD-10-CM, ICD-10-WHO, LOINC, NPI, SNOMED CT, RxNorm) are large and/or licensed.
-- These are excluded from GitHub with `.gitignore`.
+Full datasets (ICD-10-CM, ICD-10-WHO, LOINC, NPI, SNOMED CT, RxNorm, HCPCS) are large and/or licensed.
 
-**Included in the repo for testing:**
-- `icd10cm_sample.csv` (100 rows)
-- `icd10who_sample.txt` (100 rows)
-- `npidata_sample.csv` (100 rows)
-- `Loinc_sample.csv` (100 rows)
-- `snomed_sample.txt` (100 rows)
-- `rxnorm_sample.RRF` (100 rows)
-- `HCPC2025_OCT_ANWEB.csv` (full, public HCPCS dataset)
+These are excluded from GitHub with `.gitignore`.
 
-This keeps the repo lightweight while still runnable end-to-end.
-
-## Vocabularies: SNOMED CT & RxNorm
-
-### SNOMED CT
-
-- **Raw input**: Download the SNOMED CT release and place `sct2_Description_Full-en_US*.txt` into `input/`.
-- **Sample input**: `input/snomed_sample.txt`
-- **Processor**:
-  ```bash
-  python3 scripts/snomed_processor.py
-  ```
-
-### RxNorm
-
-- **Raw input**: Download RxNorm and place `RXNCONSO.RRF` into `input/`.
-- **Sample input**: `input/rxnorm_sample.RRF`
-- **Processor**:
-  ```bash
-  python3 scripts/rxnorm_processor.py
-  ```
+**To run processors locally, place the raw files into `input/`:**
+- `icd10cm_order_2025.csv`
+- `icd102019syst_codes_WHO.txt`
+- `Loinc.csv`
+- `npidata_pfile_20050523-20250907.csv`
+- `RXNCONSO.RRF`
+- `sct2_Description_Full-en_US*.txt`
+- `HCPC2025_OCT_ANWEB.csv`
 
 ## Outputs
 
@@ -140,11 +113,11 @@ Each output:
 - **Validation**: Regex-based checks (e.g., ICD-10: A00.0, NPI: 10 digits).
 - **Error Handling**: Logging, duplicate/missing row removal.
 - **Consistency**: Shared utility functions across processors.
-- **Lightweight Repo**: Large datasets excluded, samples provided.
+- **Lightweight Repo**: Large datasets excluded, only outputs and code tracked.
 
 ## Challenges & Solutions
 
-- **Large licensed datasets** → excluded from GitHub, use samples instead.
+- **Large licensed datasets** → excluded from GitHub, used locally only.
 - **Mixed file formats** → handled with custom loaders.
 - **Duplicate/empty rows** → dropped in cleaning functions.
 - **Cross-platform differences** → standardized commands with `python3`.
@@ -165,9 +138,9 @@ pip install -r requirements.txt
 
 ## Development Notes
 
-- `.gitignore` excludes large raw datasets (e.g., NPI full >10GB, LOINC full >70MB) that exceed GitHub limits.
-- Only sample inputs + HCPCS are committed.
-- Repo was cleaned with `git filter-repo` to remove oversized history.
+- `.gitignore` excludes all raw input datasets (e.g., NPI full >10GB, LOINC full >70MB).
+- Only processor scripts, utilities, outputs, and documentation are committed.
+- This keeps the repo clean, lightweight, and runnable with local data.
 
 ## Real-World Context
 
@@ -179,4 +152,4 @@ This simulates how healthcare IT teams manage vocabularies:
 
 ---
 
-**Note:** This is a class project using sample data. Real-world deployment requires licensed datasets, secure storage, and HIPAA compliance.
+**Note:** This is a class project using local raw data. Real-world deployment requires licensed datasets, secure storage, and HIPAA compliance.

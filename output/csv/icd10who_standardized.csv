@@ -1,101 +1,101 @@
 code,description,last_updated
-A00,Cholera,2025-09-11 21:14:09
-A00,"Cholera due to Vibrio cholerae 01, biovar cholerae",2025-09-11 21:14:09
-A00,"Cholera due to Vibrio cholerae 01, biovar eltor",2025-09-11 21:14:09
-A00,"Cholera, unspecified",2025-09-11 21:14:09
-A00,Typhoid and paratyphoid fevers,2025-09-11 21:14:09
-A00,Typhoid fever,2025-09-11 21:14:09
-A00,Paratyphoid fever A,2025-09-11 21:14:09
-A00,Paratyphoid fever B,2025-09-11 21:14:09
-A00,Paratyphoid fever C,2025-09-11 21:14:09
-A00,"Paratyphoid fever, unspecified",2025-09-11 21:14:09
-A00,Other salmonella infections,2025-09-11 21:14:09
-A00,Salmonella enteritis,2025-09-11 21:14:09
-A00,Salmonella sepsis,2025-09-11 21:14:09
-A00,Localized salmonella infections,2025-09-11 21:14:09
-A00,Other specified salmonella infections,2025-09-11 21:14:09
-A00,"Salmonella infection, unspecified",2025-09-11 21:14:09
-A00,Shigellosis,2025-09-11 21:14:09
-A00,Shigellosis due to Shigella dysenteriae,2025-09-11 21:14:09
-A00,Shigellosis due to Shigella flexneri,2025-09-11 21:14:09
-A00,Shigellosis due to Shigella boydii,2025-09-11 21:14:09
-A00,Shigellosis due to Shigella sonnei,2025-09-11 21:14:09
-A00,Other shigellosis,2025-09-11 21:14:09
-A00,"Shigellosis, unspecified",2025-09-11 21:14:09
-A00,Other bacterial intestinal infections,2025-09-11 21:14:09
-A00,Enteropathogenic Escherichia coli infection,2025-09-11 21:14:09
-A00,Enterotoxigenic Escherichia coli infection,2025-09-11 21:14:09
-A00,Enteroinvasive Escherichia coli infection,2025-09-11 21:14:09
-A00,Enterohaemorrhagic Escherichia coli infection,2025-09-11 21:14:09
-A00,Other intestinal Escherichia coli infections,2025-09-11 21:14:09
-A00,Campylobacter enteritis,2025-09-11 21:14:09
-A00,Enteritis due to Yersinia enterocolitica,2025-09-11 21:14:09
-A00,Enterocolitis due to Clostridium difficile,2025-09-11 21:14:09
-A00,Other specified bacterial intestinal infections,2025-09-11 21:14:09
-A00,"Bacterial intestinal infection, unspecified",2025-09-11 21:14:09
-A00,"Other bacterial foodborne intoxications, not elsewhere classified",2025-09-11 21:14:09
-A00,Foodborne staphylococcal intoxication,2025-09-11 21:14:09
-A00,Botulism,2025-09-11 21:14:09
-A00,Foodborne Clostridium perfringens [Clostridium welchii] intoxication,2025-09-11 21:14:09
-A00,Foodborne Vibrio parahaemolyticus intoxication,2025-09-11 21:14:09
-A00,Foodborne Bacillus cereus intoxication,2025-09-11 21:14:09
-A00,Other specified bacterial foodborne intoxications,2025-09-11 21:14:09
-A00,"Bacterial foodborne intoxication, unspecified",2025-09-11 21:14:09
-A00,Amoebiasis,2025-09-11 21:14:09
-A00,Acute amoebic dysentery,2025-09-11 21:14:09
-A00,Chronic intestinal amoebiasis,2025-09-11 21:14:09
-A00,Amoebic nondysenteric colitis,2025-09-11 21:14:09
-A00,Amoeboma of intestine,2025-09-11 21:14:09
-A00,Amoebic liver abscess,2025-09-11 21:14:09
-A00,Amoebic lung abscess,2025-09-11 21:14:09
-A00,Amoebic brain abscess,2025-09-11 21:14:09
-A00,Cutaneous amoebiasis,2025-09-11 21:14:09
-A00,Amoebic infection of other sites,2025-09-11 21:14:09
-A00,"Amoebiasis, unspecified",2025-09-11 21:14:09
-A00,Other protozoal intestinal diseases,2025-09-11 21:14:09
-A00,Balantidiasis,2025-09-11 21:14:09
-A00,Giardiasis [lambliasis],2025-09-11 21:14:09
-A00,Cryptosporidiosis,2025-09-11 21:14:09
-A00,Isosporiasis,2025-09-11 21:14:09
-A00,Other specified protozoal intestinal diseases,2025-09-11 21:14:09
-A00,"Protozoal intestinal disease, unspecified",2025-09-11 21:14:09
-A00,Viral and other specified intestinal infections,2025-09-11 21:14:09
-A00,Rotaviral enteritis,2025-09-11 21:14:09
-A00,Acute gastroenteropathy due to Norovirus,2025-09-11 21:14:09
-A00,Adenoviral enteritis,2025-09-11 21:14:09
-A00,Other viral enteritis,2025-09-11 21:14:09
-A00,"Viral intestinal infection, unspecified",2025-09-11 21:14:09
-A00,Other specified intestinal infections,2025-09-11 21:14:09
-A00,Other gastroenteritis and colitis of infectious and unspecified origin,2025-09-11 21:14:09
-A00,Other and unspecified gastroenteritis and colitis of infectious origin,2025-09-11 21:14:09
-A00,Gastroenteritis and colitis of unspecified origin,2025-09-11 21:14:09
-A15,"Respiratory tuberculosis, bacteriologically and histologically confirmed",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, confirmed by sputum microscopy with or without culture",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, confirmed by culture only",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, confirmed histologically",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, confirmed by unspecified means",2025-09-11 21:14:09
-A15,"Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Tuberculous pleurisy, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Primary respiratory tuberculosis, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Other respiratory tuberculosis, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically",2025-09-11 21:14:09
-A15,"Respiratory tuberculosis, not confirmed bacteriologically or histologically",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, bacteriologically and histologically negative",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, bacteriological and histological examination not done",2025-09-11 21:14:09
-A15,"Tuberculosis of lung, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,"Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,"Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,"Tuberculous pleurisy, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,Primary respiratory tuberculosis without mention of bacteriological or histological confirmation,2025-09-11 21:14:09
-A15,"Other respiratory tuberculosis, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,"Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation",2025-09-11 21:14:09
-A15,Tuberculosis of nervous system,2025-09-11 21:14:09
-A15,Tuberculous meningitis,2025-09-11 21:14:09
-A15,Meningeal tuberculoma,2025-09-11 21:14:09
-A15,Other tuberculosis of nervous system,2025-09-11 21:14:09
-A15,"Tuberculosis of nervous system, unspecified",2025-09-11 21:14:09
-A15,Tuberculosis of other organs,2025-09-11 21:14:09
-A15,Tuberculosis of bones and joints,2025-09-11 21:14:09
-A15,Tuberculosis of genitourinary system,2025-09-11 21:14:09
-A15,Tuberculous peripheral lymphadenopathy,2025-09-11 21:14:09
+A00,Cholera,2025-09-11 21:43:03
+A00,"Cholera due to Vibrio cholerae 01, biovar cholerae",2025-09-11 21:43:03
+A00,"Cholera due to Vibrio cholerae 01, biovar eltor",2025-09-11 21:43:03
+A00,"Cholera, unspecified",2025-09-11 21:43:03
+A00,Typhoid and paratyphoid fevers,2025-09-11 21:43:03
+A00,Typhoid fever,2025-09-11 21:43:03
+A00,Paratyphoid fever A,2025-09-11 21:43:03
+A00,Paratyphoid fever B,2025-09-11 21:43:03
+A00,Paratyphoid fever C,2025-09-11 21:43:03
+A00,"Paratyphoid fever, unspecified",2025-09-11 21:43:03
+A00,Other salmonella infections,2025-09-11 21:43:03
+A00,Salmonella enteritis,2025-09-11 21:43:03
+A00,Salmonella sepsis,2025-09-11 21:43:03
+A00,Localized salmonella infections,2025-09-11 21:43:03
+A00,Other specified salmonella infections,2025-09-11 21:43:03
+A00,"Salmonella infection, unspecified",2025-09-11 21:43:03
+A00,Shigellosis,2025-09-11 21:43:03
+A00,Shigellosis due to Shigella dysenteriae,2025-09-11 21:43:03
+A00,Shigellosis due to Shigella flexneri,2025-09-11 21:43:03
+A00,Shigellosis due to Shigella boydii,2025-09-11 21:43:03
+A00,Shigellosis due to Shigella sonnei,2025-09-11 21:43:03
+A00,Other shigellosis,2025-09-11 21:43:03
+A00,"Shigellosis, unspecified",2025-09-11 21:43:03
+A00,Other bacterial intestinal infections,2025-09-11 21:43:03
+A00,Enteropathogenic Escherichia coli infection,2025-09-11 21:43:03
+A00,Enterotoxigenic Escherichia coli infection,2025-09-11 21:43:03
+A00,Enteroinvasive Escherichia coli infection,2025-09-11 21:43:03
+A00,Enterohaemorrhagic Escherichia coli infection,2025-09-11 21:43:03
+A00,Other intestinal Escherichia coli infections,2025-09-11 21:43:03
+A00,Campylobacter enteritis,2025-09-11 21:43:03
+A00,Enteritis due to Yersinia enterocolitica,2025-09-11 21:43:03
+A00,Enterocolitis due to Clostridium difficile,2025-09-11 21:43:03
+A00,Other specified bacterial intestinal infections,2025-09-11 21:43:03
+A00,"Bacterial intestinal infection, unspecified",2025-09-11 21:43:03
+A00,"Other bacterial foodborne intoxications, not elsewhere classified",2025-09-11 21:43:03
+A00,Foodborne staphylococcal intoxication,2025-09-11 21:43:03
+A00,Botulism,2025-09-11 21:43:03
+A00,Foodborne Clostridium perfringens [Clostridium welchii] intoxication,2025-09-11 21:43:03
+A00,Foodborne Vibrio parahaemolyticus intoxication,2025-09-11 21:43:03
+A00,Foodborne Bacillus cereus intoxication,2025-09-11 21:43:03
+A00,Other specified bacterial foodborne intoxications,2025-09-11 21:43:03
+A00,"Bacterial foodborne intoxication, unspecified",2025-09-11 21:43:03
+A00,Amoebiasis,2025-09-11 21:43:03
+A00,Acute amoebic dysentery,2025-09-11 21:43:03
+A00,Chronic intestinal amoebiasis,2025-09-11 21:43:03
+A00,Amoebic nondysenteric colitis,2025-09-11 21:43:03
+A00,Amoeboma of intestine,2025-09-11 21:43:03
+A00,Amoebic liver abscess,2025-09-11 21:43:03
+A00,Amoebic lung abscess,2025-09-11 21:43:03
+A00,Amoebic brain abscess,2025-09-11 21:43:03
+A00,Cutaneous amoebiasis,2025-09-11 21:43:03
+A00,Amoebic infection of other sites,2025-09-11 21:43:03
+A00,"Amoebiasis, unspecified",2025-09-11 21:43:03
+A00,Other protozoal intestinal diseases,2025-09-11 21:43:03
+A00,Balantidiasis,2025-09-11 21:43:03
+A00,Giardiasis [lambliasis],2025-09-11 21:43:03
+A00,Cryptosporidiosis,2025-09-11 21:43:03
+A00,Isosporiasis,2025-09-11 21:43:03
+A00,Other specified protozoal intestinal diseases,2025-09-11 21:43:03
+A00,"Protozoal intestinal disease, unspecified",2025-09-11 21:43:03
+A00,Viral and other specified intestinal infections,2025-09-11 21:43:03
+A00,Rotaviral enteritis,2025-09-11 21:43:03
+A00,Acute gastroenteropathy due to Norovirus,2025-09-11 21:43:03
+A00,Adenoviral enteritis,2025-09-11 21:43:03
+A00,Other viral enteritis,2025-09-11 21:43:03
+A00,"Viral intestinal infection, unspecified",2025-09-11 21:43:03
+A00,Other specified intestinal infections,2025-09-11 21:43:03
+A00,Other gastroenteritis and colitis of infectious and unspecified origin,2025-09-11 21:43:03
+A00,Other and unspecified gastroenteritis and colitis of infectious origin,2025-09-11 21:43:03
+A00,Gastroenteritis and colitis of unspecified origin,2025-09-11 21:43:03
+A15,"Respiratory tuberculosis, bacteriologically and histologically confirmed",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, confirmed by sputum microscopy with or without culture",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, confirmed by culture only",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, confirmed histologically",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, confirmed by unspecified means",2025-09-11 21:43:03
+A15,"Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Tuberculous pleurisy, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Primary respiratory tuberculosis, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Other respiratory tuberculosis, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically",2025-09-11 21:43:03
+A15,"Respiratory tuberculosis, not confirmed bacteriologically or histologically",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, bacteriologically and histologically negative",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, bacteriological and histological examination not done",2025-09-11 21:43:03
+A15,"Tuberculosis of lung, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,"Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,"Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,"Tuberculous pleurisy, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,Primary respiratory tuberculosis without mention of bacteriological or histological confirmation,2025-09-11 21:43:03
+A15,"Other respiratory tuberculosis, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,"Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation",2025-09-11 21:43:03
+A15,Tuberculosis of nervous system,2025-09-11 21:43:03
+A15,Tuberculous meningitis,2025-09-11 21:43:03
+A15,Meningeal tuberculoma,2025-09-11 21:43:03
+A15,Other tuberculosis of nervous system,2025-09-11 21:43:03
+A15,"Tuberculosis of nervous system, unspecified",2025-09-11 21:43:03
+A15,Tuberculosis of other organs,2025-09-11 21:43:03
+A15,Tuberculosis of bones and joints,2025-09-11 21:43:03
+A15,Tuberculosis of genitourinary system,2025-09-11 21:43:03
+A15,Tuberculous peripheral lymphadenopathy,2025-09-11 21:43:03
