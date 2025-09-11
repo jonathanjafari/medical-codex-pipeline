@@ -1,24 +1,47 @@
-# Input data
-# Ignore everything in input/, but allow sample files for assignment
+# ----------------------
+# Project-specific ignores
+# ----------------------
+
+# Raw input data (large medical datasets)
 input/*
-!input/*.txt
-!input/*.csv
-!input/*.xml
+!input/.gitkeep     # keep folder structure, but not data
 
-# Outputs - ignore all generated files
+# Output files
 output/*
+!output/.gitkeep    # keep folder structure, but not data
 
-# Logs (keep folder, ignore contents except .gitkeep)
+# Logs
 logs/*
 !logs/.gitkeep
 
-# Python cache & environment
+# ----------------------
+# Python ignores
+# ----------------------
 __pycache__/
 *.pyc
-.venv/
-.env
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
 
-# IDE & system
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+
+# ----------------------
+# OS / IDE ignores
+# ----------------------
+.DS_Store
+Thumbs.db
 .vscode/
 .idea/
-.DS_Store
+
+# ----------------------
+# Miscellaneous
+# ----------------------
+*.log
+*.zip
+*.tar.gz
+*.bak

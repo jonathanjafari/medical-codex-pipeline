@@ -1,48 +1,67 @@
-"""
-Common utility functions for the medical codex pipeline.
-These functions are shared across all processor scripts.
-"""
-
-import pandas as pd
-import logging
-from datetime import datetime
+# utils/common_functions.py
 import re
+from pathlib import Path
+import pandas as pd
+from datetime import datetime
 
-def save_to_formats(df: pd.DataFrame, base_filename: str) -> None:
+
+def init_logging(level=None) -> None:
     """
-    Save a DataFrame to CSV format.
+    Initialize logging for the project.
+    Keeps everything inside the function to avoid circular import errors.
+    """
+    import logging
+
+    if level is None:
+        level = getattr(logging, "INFO", 20)
+
+    try:
+        logging.basicConfig(level=level, format="%(levelname)s:%(message)s")
+        if not logging.getLogger().handlers:
+            raise RuntimeError("no handlers after basicConfig")
+    except Exception:
+        root = logging.getLogger()
+        root.setLevel(level)
+        if not root.handlers:
+            h = logging.StreamHandler()
+            h.setFormatter(logging.Formatter("%(levelname)s:%(message)s"))
+            root.addHandler(h)
+
+
+def save_to_formats(df: pd.DataFrame, base_filename: str, limit: int = 100) -> None:
+    """
+    Save DataFrame to CSV, limiting rows to avoid huge files.
 
     Args:
-        df (pd.DataFrame): The cleaned DataFrame to save.
-        base_filename (str): Path and base filename (without extension).
-
-    Returns:
-        None
+        df: DataFrame to save
+        base_filename: output path without extension
+        limit: maximum rows to save (default 100)
     """
+    import logging
     try:
-        df.to_csv(f"{base_filename}.csv", index=False)
-        logging.info(f"Saved {base_filename}.csv")
+        if limit is not None:
+            df = df.head(limit)
+
+        Path(base_filename).parent.mkdir(parents=True, exist_ok=True)
+        out_path = f"{base_filename}.csv"
+        df.to_csv(out_path, index=False)
+        logging.info(f"Saved {out_path} with {len(df)} rows (limit={limit})")
     except Exception as e:
         logging.error(f"Error saving file: {e}")
 
-def get_timestamp() -> str:
-    """
-    Get the current UTC timestamp.
 
-    Returns:
-        str: Timestamp in YYYY-MM-DD HH:MM:SS format.
-    """
+def get_timestamp() -> str:
+    """Return current UTC timestamp as 'YYYY-MM-DD HH:MM:SS'."""
     return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
-def validate_code_format(code: str, pattern: str) -> bool:
-    """
-    Validate that a code matches the expected regex pattern.
 
-    Args:
-        code (str): The code string to validate.
-        pattern (str): A regex pattern to check against.
-
-    Returns:
-        bool: True if the code matches the pattern, False otherwise.
+def validate_code_format(code: str, system: str) -> bool:
     """
-    return bool(re.match(pattern, str(code)))
+    Basic code validity check.
+
+    For now: code must be a non-empty string with only letters,
+    numbers, dots, or dashes.
+    """
+    if not isinstance(code, str) or not code.strip():
+        return False
+    return bool(re.match(r"^[A-Za-z0-9.\-]+$", code.strip()))
