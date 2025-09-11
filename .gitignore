@@ -1,20 +1,4 @@
 # ----------------------
-# Project-specific ignores
-# ----------------------
-
-# Raw input data (large medical datasets)
-input/*
-!input/.gitkeep     # keep folder structure, but not data
-
-# Output files
-output/*
-!output/.gitkeep    # keep folder structure, but not data
-
-# Logs
-logs/*
-!logs/.gitkeep
-
-# ----------------------
 # Python ignores
 # ----------------------
 __pycache__/
@@ -39,7 +23,13 @@ Thumbs.db
 .idea/
 
 # ----------------------
-# Miscellaneous
+# Logs (we don’t need to push runtime logs)
+# ----------------------
+logs/*
+!logs/.gitkeep
+
+# ----------------------
+# Archives / temporary files
 # ----------------------
 *.log
 *.zip
