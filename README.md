@@ -72,18 +72,30 @@ medical-codex-pipeline/
 
 ## Input Files
 
-Full datasets (ICD-10-CM, ICD-10-WHO, LOINC, NPI, SNOMED CT, RxNorm, HCPCS) are large and/or licensed.
+Full datasets (ICD-10-CM, ICD-10-WHO, LOINC, NPI, SNOMED CT, RxNorm, HCPCS) are large and/or licensed. These are excluded from GitHub with `.gitignore`.
 
-These are excluded from GitHub with `.gitignore`.
+## Data Sources
+
+This project uses publicly available or licensed vocabularies. Full datasets must be downloaded separately:
+
+- **SNOMED CT (US Edition)** – [NLM SNOMED CT Archive](https://www.nlm.nih.gov/research/umls/Snomed/snomed_main.html)
+- **ICD-10-CM (US Edition)** – [CMS ICD-10-CM Codes](https://www.cms.gov/Medicare/Coding/ICD10/)
+- **ICD-10 (WHO Edition)** – [WHO ICD-10 Browser](https://icd.who.int/browse10/2019/en)
+- **HCPCS (US)** – [CMS HCPCS Quarterly Updates](https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets)
+- **LOINC (US)** – [Regenstrief LOINC Downloads](https://loinc.org/downloads/)
+- **RxNorm (US)** – [NLM RxNorm Files](https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html)
+- **NPI (US)** – [CMS NPI Downloadable Files](https://download.cms.gov/nppes/NPI_Files.html)
 
 **To run processors locally, place the raw files into `input/`:**
-- `icd10cm_order_2025.csv`
-- `icd102019syst_codes_WHO.txt`
-- `Loinc.csv`
-- `npidata_pfile_20050523-20250907.csv`
-- `RXNCONSO.RRF`
-- `sct2_Description_Full-en_US*.txt`
-- `HCPC2025_OCT_ANWEB.csv`
+```
+input/icd10cm_order_2025.csv
+input/icd102019syst_codes_WHO.txt
+input/Loinc.csv
+input/npidata_pfile_20050523-20250907.csv
+input/RXNCONSO.RRF
+input/sct2_Description_Full-en_US*.txt
+input/HCPC2025_OCT_ANWEB.csv
+```
 
 ## Outputs
 
