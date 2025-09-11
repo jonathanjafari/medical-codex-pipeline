@@ -35,3 +35,5 @@ logs/*
 *.zip
 *.tar.gz
 *.bak
+input/icd10cm_order_2025.csv
+input/icd102019syst_codes_WHO.txt
