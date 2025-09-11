@@ -26,17 +26,19 @@ Thumbs.db
 # Project-specific ignores
 # ----------------------
 
-# Ignore large raw vocab datasets
+# Ignore large raw vocab datasets (kept local only)
 input/*.RRF
 input/sct2_*.txt
 input/SnomedCT_*/
 input/RxNorm_*/
+input/Loinc.csv
+input/npidata_pfile_20050523-20250907.csv
 
 # Ignore old placeholder files
 input/rxnorm_2024.txt
 input/snomed_concepts.txt
 
-# Keep sample inputs (always include these in Git)
+# Always keep sample inputs (tracked for testing/demo)
 !input/*sample*
 
-# Keep outputs (commit standardized outputs to GitHub)
+# Outputs are lightweight standardized CSVs — commit these
