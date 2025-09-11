@@ -13,14 +13,31 @@ def load_npi_data(filepath):
 
 def clean_npi_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize NPI records."""
-    df = raw.rename(columns={"NPI": "code", "Entity Type Code": "description"})[
-        ["code", "description"]
-    ].copy()
-    df = df.dropna(subset=["code", "description"])
+    df = raw.copy()
+
+    # Standardize code column
+    df = df.rename(columns={"NPI": "code"})
+
+    # Build description column (individuals get Last, First + credential; orgs get org name)
+    df["description"] = df.apply(
+        lambda row: (
+            f"{row['Provider Last Name (Legal Name)']}, {row['Provider First Name']} {row['Provider Credential Text'] or ''}".strip()
+            if row["Entity Type Code"] == "1"
+            else row["Provider Organization Name (Legal Business Name)"]
+        ),
+        axis=1,
+    )
+
+    # Keep only code + description
+    df = df[["code", "description"]].dropna()
+
+    # Strip spaces
     df["code"] = df["code"].str.strip()
     df["description"] = df["description"].str.strip()
+
+    # Drop duplicates
     df = df.drop_duplicates()
-    df["is_valid"] = df["code"].apply(lambda c: validate_code_format(c, "npi"))
+
     return df
 
 

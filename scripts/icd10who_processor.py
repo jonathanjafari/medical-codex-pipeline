@@ -18,7 +18,7 @@ def clean_icd10who_data(raw: pd.DataFrame) -> pd.DataFrame:
     df["code"] = df["code"].str.strip()
     df["description"] = df["description"].str.strip()
     df = df.drop_duplicates()
-    df["is_valid"] = df["code"].apply(lambda c: validate_code_format(c, "icd10who"))
+    df = df[["code", "description"]]
     return df
 
 

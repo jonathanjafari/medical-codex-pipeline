@@ -1,4 +1,4 @@
-code,description,is_valid
-123456789,Sample condition 1,True
-987654321,Sample condition 2,True
-555111222,Sample condition 3,True
+code,description,last_updated
+123456789,Sample condition 1,2025-09-11 03:59:40
+987654321,Sample condition 2,2025-09-11 03:59:40
+555111222,Sample condition 3,2025-09-11 03:59:40

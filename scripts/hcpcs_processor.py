@@ -13,14 +13,12 @@ def load_hcpcs_data(filepath: str) -> pd.DataFrame:
 
 def clean_hcpcs_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize HCPCS codes."""
-    df = raw.rename(columns={"Code": "code", "Description1": "description"})[
-        ["code", "description"]
-    ].copy()
+    df = raw.rename(columns={"Code": "code", "Description1": "description"}).copy()
     df = df.dropna(subset=["code", "description"])
     df["code"] = df["code"].str.strip()
     df["description"] = df["description"].str.strip()
     df = df.drop_duplicates()
-    df["is_valid"] = df["code"].apply(lambda c: validate_code_format(c, "hcpcs"))
+    df = df[["code", "description"]]
     return df
 
 
