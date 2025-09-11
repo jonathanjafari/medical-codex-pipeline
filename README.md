@@ -43,8 +43,8 @@ Each processor script:
 
 **Standard Output Format:**
 ```csv
-code,description,is_valid
-A00.0,Cholera due to Vibrio cholerae,True
+code,description,last_updated
+A00.0,Cholera due to Vibrio cholerae,2025-09-11 01:30:00
 ```
 
 **Row Limit:**
