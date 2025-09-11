@@ -1,0 +1,100 @@
+3;N;X;01;A00;A00.-;A00;A00;Cholera;Cholera;;;001;4-002;3-003;2-001;1-002
+4;T;X;01;A00;A00.0;A00.0;A000;Cholera due to Vibrio cholerae 01, biovar cholerae;Cholera;Cholera due to Vibrio cholerae 01, biovar cholerae;;001;4-002;3-003;2-001;1-002
+4;T;X;01;A00;A00.1;A00.1;A001;Cholera due to Vibrio cholerae 01, biovar eltor;Cholera;Cholera due to Vibrio cholerae 01, biovar eltor;;001;4-002;3-003;2-001;1-002
+4;T;X;01;A00;A00.9;A00.9;A009;Cholera, unspecified;Cholera;Cholera, unspecified;;001;4-002;3-003;2-001;1-002
+3;N;X;01;A00;A01.-;A01;A01;Typhoid and paratyphoid fevers;Typhoid and paratyphoid fevers;;;002;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A01.0;A01.0;A010;Typhoid fever;Typhoid and paratyphoid fevers;Typhoid fever;;002;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A01.1;A01.1;A011;Paratyphoid fever A;Typhoid and paratyphoid fevers;Paratyphoid fever A;;002;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A01.2;A01.2;A012;Paratyphoid fever B;Typhoid and paratyphoid fevers;Paratyphoid fever B;;002;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A01.3;A01.3;A013;Paratyphoid fever C;Typhoid and paratyphoid fevers;Paratyphoid fever C;;002;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A01.4;A01.4;A014;Paratyphoid fever, unspecified;Typhoid and paratyphoid fevers;Paratyphoid fever, unspecified;;002;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A02.-;A02;A02;Other salmonella infections;Other salmonella infections;;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A02.0;A02.0;A020;Salmonella enteritis;Other salmonella infections;Salmonella enteritis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A02.1;A02.1;A021;Salmonella sepsis;Other salmonella infections;Salmonella sepsis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A02.2;A02.2;A022;Localized salmonella infections;Other salmonella infections;Localized salmonella infections;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A02.8;A02.8;A028;Other specified salmonella infections;Other salmonella infections;Other specified salmonella infections;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A02.9;A02.9;A029;Salmonella infection, unspecified;Other salmonella infections;Salmonella infection, unspecified;;006;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A03.-;A03;A03;Shigellosis;Shigellosis;;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.0;A03.0;A030;Shigellosis due to Shigella dysenteriae;Shigellosis;Shigellosis due to Shigella dysenteriae;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.1;A03.1;A031;Shigellosis due to Shigella flexneri;Shigellosis;Shigellosis due to Shigella flexneri;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.2;A03.2;A032;Shigellosis due to Shigella boydii;Shigellosis;Shigellosis due to Shigella boydii;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.3;A03.3;A033;Shigellosis due to Shigella sonnei;Shigellosis;Shigellosis due to Shigella sonnei;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.8;A03.8;A038;Other shigellosis;Shigellosis;Other shigellosis;;003;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A03.9;A03.9;A039;Shigellosis, unspecified;Shigellosis;Shigellosis, unspecified;;003;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A04.-;A04;A04;Other bacterial intestinal infections;Other bacterial intestinal infections;;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.0;A04.0;A040;Enteropathogenic Escherichia coli infection;Other bacterial intestinal infections;Enteropathogenic Escherichia coli infection;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.1;A04.1;A041;Enterotoxigenic Escherichia coli infection;Other bacterial intestinal infections;Enterotoxigenic Escherichia coli infection;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.2;A04.2;A042;Enteroinvasive Escherichia coli infection;Other bacterial intestinal infections;Enteroinvasive Escherichia coli infection;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.3;A04.3;A043;Enterohaemorrhagic Escherichia coli infection;Other bacterial intestinal infections;Enterohaemorrhagic Escherichia coli infection;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.4;A04.4;A044;Other intestinal Escherichia coli infections;Other bacterial intestinal infections;Other intestinal Escherichia coli infections;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.5;A04.5;A045;Campylobacter enteritis;Other bacterial intestinal infections;Campylobacter enteritis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.6;A04.6;A046;Enteritis due to Yersinia enterocolitica;Other bacterial intestinal infections;Enteritis due to Yersinia enterocolitica;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.7;A04.7;A047;Enterocolitis due to Clostridium difficile;Other bacterial intestinal infections;Enterocolitis due to Clostridium difficile;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.8;A04.8;A048;Other specified bacterial intestinal infections;Other bacterial intestinal infections;Other specified bacterial intestinal infections;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A04.9;A04.9;A049;Bacterial intestinal infection, unspecified;Other bacterial intestinal infections;Bacterial intestinal infection, unspecified;;006;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A05.-;A05;A05;Other bacterial foodborne intoxications, not elsewhere classified;Other bacterial foodborne intoxications, not elsewhere classified;;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.0;A05.0;A050;Foodborne staphylococcal intoxication;Other bacterial foodborne intoxications, not elsewhere classified;Foodborne staphylococcal intoxication;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.1;A05.1;A051;Botulism;Other bacterial foodborne intoxications, not elsewhere classified;Botulism;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.2;A05.2;A052;Foodborne Clostridium perfringens [Clostridium welchii] intoxication;Other bacterial foodborne intoxications, not elsewhere classified;Foodborne Clostridium perfringens [Clostridium welchii] intoxication;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.3;A05.3;A053;Foodborne Vibrio parahaemolyticus intoxication;Other bacterial foodborne intoxications, not elsewhere classified;Foodborne Vibrio parahaemolyticus intoxication;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.4;A05.4;A054;Foodborne Bacillus cereus intoxication;Other bacterial foodborne intoxications, not elsewhere classified;Foodborne Bacillus cereus intoxication;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.8;A05.8;A058;Other specified bacterial foodborne intoxications;Other bacterial foodborne intoxications, not elsewhere classified;Other specified bacterial foodborne intoxications;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A05.9;A05.9;A059;Bacterial foodborne intoxication, unspecified;Other bacterial foodborne intoxications, not elsewhere classified;Bacterial foodborne intoxication, unspecified;;006;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A06.-;A06;A06;Amoebiasis;Amoebiasis;;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.0;A06.0;A060;Acute amoebic dysentery;Amoebiasis;Acute amoebic dysentery;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.1;A06.1;A061;Chronic intestinal amoebiasis;Amoebiasis;Chronic intestinal amoebiasis;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.2;A06.2;A062;Amoebic nondysenteric colitis;Amoebiasis;Amoebic nondysenteric colitis;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.3;A06.3;A063;Amoeboma of intestine;Amoebiasis;Amoeboma of intestine;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.4;A06.4;A064;Amoebic liver abscess;Amoebiasis;Amoebic liver abscess;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.5;A06.5;A065;Amoebic lung abscess;Amoebiasis;Amoebic lung abscess;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.6;A06.6;A066;Amoebic brain abscess;Amoebiasis;Amoebic brain abscess;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.7;A06.7;A067;Cutaneous amoebiasis;Amoebiasis;Cutaneous amoebiasis;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.8;A06.8;A068;Amoebic infection of other sites;Amoebiasis;Amoebic infection of other sites;;004;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A06.9;A06.9;A069;Amoebiasis, unspecified;Amoebiasis;Amoebiasis, unspecified;;004;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A07.-;A07;A07;Other protozoal intestinal diseases;Other protozoal intestinal diseases;;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.0;A07.0;A070;Balantidiasis;Other protozoal intestinal diseases;Balantidiasis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.1;A07.1;A071;Giardiasis [lambliasis];Other protozoal intestinal diseases;Giardiasis [lambliasis];;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.2;A07.2;A072;Cryptosporidiosis;Other protozoal intestinal diseases;Cryptosporidiosis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.3;A07.3;A073;Isosporiasis;Other protozoal intestinal diseases;Isosporiasis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.8;A07.8;A078;Other specified protozoal intestinal diseases;Other protozoal intestinal diseases;Other specified protozoal intestinal diseases;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A07.9;A07.9;A079;Protozoal intestinal disease, unspecified;Other protozoal intestinal diseases;Protozoal intestinal disease, unspecified;;006;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A08.-;A08;A08;Viral and other specified intestinal infections;Viral and other specified intestinal infections;;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.0;A08.0;A080;Rotaviral enteritis;Viral and other specified intestinal infections;Rotaviral enteritis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.1;A08.1;A081;Acute gastroenteropathy due to Norovirus;Viral and other specified intestinal infections;Acute gastroenteropathy due to Norovirus;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.2;A08.2;A082;Adenoviral enteritis;Viral and other specified intestinal infections;Adenoviral enteritis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.3;A08.3;A083;Other viral enteritis;Viral and other specified intestinal infections;Other viral enteritis;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.4;A08.4;A084;Viral intestinal infection, unspecified;Viral and other specified intestinal infections;Viral intestinal infection, unspecified;;006;4-002;3-003;2-003;1-004
+4;T;X;01;A00;A08.5;A08.5;A085;Other specified intestinal infections;Viral and other specified intestinal infections;Other specified intestinal infections;;006;4-002;3-003;2-003;1-004
+3;N;X;01;A00;A09.-;A09;A09;Other gastroenteritis and colitis of infectious and unspecified origin;Other gastroenteritis and colitis of infectious and unspecified origin;;;005;4-001;3-002;2-002;1-003
+4;T;X;01;A00;A09.0;A09.0;A090;Other and unspecified gastroenteritis and colitis of infectious origin;Other gastroenteritis and colitis of infectious and unspecified origin;Other and unspecified gastroenteritis and colitis of infectious origin;;005;4-001;3-002;2-002;1-003
+4;T;X;01;A00;A09.9;A09.9;A099;Gastroenteritis and colitis of unspecified origin;Other gastroenteritis and colitis of infectious and unspecified origin;Gastroenteritis and colitis of unspecified origin;;005;4-001;3-002;2-002;1-003
+3;N;X;01;A15;A15.-;A15;A15;Respiratory tuberculosis, bacteriologically and histologically confirmed;Respiratory tuberculosis, bacteriologically and histologically confirmed;;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.0;A15.0;A150;Tuberculosis of lung, confirmed by sputum microscopy with or without culture;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of lung, confirmed by sputum microscopy with or without culture;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.1;A15.1;A151;Tuberculosis of lung, confirmed by culture only;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of lung, confirmed by culture only;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.2;A15.2;A152;Tuberculosis of lung, confirmed histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of lung, confirmed histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.3;A15.3;A153;Tuberculosis of lung, confirmed by unspecified means;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of lung, confirmed by unspecified means;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.4;A15.4;A154;Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of intrathoracic lymph nodes, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.5;A15.5;A155;Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculosis of larynx, trachea and bronchus, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.6;A15.6;A156;Tuberculous pleurisy, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Tuberculous pleurisy, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.7;A15.7;A157;Primary respiratory tuberculosis, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Primary respiratory tuberculosis, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.8;A15.8;A158;Other respiratory tuberculosis, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Other respiratory tuberculosis, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A15.9;A15.9;A159;Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically;Respiratory tuberculosis, bacteriologically and histologically confirmed;Respiratory tuberculosis unspecified, confirmed bacteriologically and histologically;;007;4-003;3-004;2-004;1-005
+3;N;X;01;A15;A16.-;A16;A16;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Respiratory tuberculosis, not confirmed bacteriologically or histologically;;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.0;A16.0;A160;Tuberculosis of lung, bacteriologically and histologically negative;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculosis of lung, bacteriologically and histologically negative;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.1;A16.1;A161;Tuberculosis of lung, bacteriological and histological examination not done;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculosis of lung, bacteriological and histological examination not done;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.2;A16.2;A162;Tuberculosis of lung, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculosis of lung, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.3;A16.3;A163;Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculosis of intrathoracic lymph nodes, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.4;A16.4;A164;Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculosis of larynx, trachea and bronchus, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.5;A16.5;A165;Tuberculous pleurisy, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Tuberculous pleurisy, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.7;A16.7;A167;Primary respiratory tuberculosis without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Primary respiratory tuberculosis without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.8;A16.8;A168;Other respiratory tuberculosis, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Other respiratory tuberculosis, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+4;T;X;01;A15;A16.9;A16.9;A169;Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation;Respiratory tuberculosis, not confirmed bacteriologically or histologically;Respiratory tuberculosis unspecified, without mention of bacteriological or histological confirmation;;007;4-003;3-004;2-004;1-005
+3;N;X;01;A15;A17.-;A17;A17;Tuberculosis of nervous system;Tuberculosis of nervous system;;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A17.0;A17.0;A170;Tuberculous meningitis;Tuberculosis of nervous system;Tuberculous meningitis;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A17.1;A17.1;A171;Meningeal tuberculoma;Tuberculosis of nervous system;Meningeal tuberculoma;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A17.8;A17.8;A178;Other tuberculosis of nervous system;Tuberculosis of nervous system;Other tuberculosis of nervous system;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A17.9;A17.9;A179;Tuberculosis of nervous system, unspecified;Tuberculosis of nervous system;Tuberculosis of nervous system, unspecified;;008;4-003;3-004;2-005;1-006
+3;N;X;01;A15;A18.-;A18;A18;Tuberculosis of other organs;Tuberculosis of other organs;;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A18.0;A18.0;A180;Tuberculosis of bones and joints;Tuberculosis of other organs;Tuberculosis of bones and joints;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A18.1;A18.1;A181;Tuberculosis of genitourinary system;Tuberculosis of other organs;Tuberculosis of genitourinary system;;008;4-003;3-004;2-005;1-006
+4;T;X;01;A15;A18.2;A18.2;A182;Tuberculous peripheral lymphadenopathy;Tuberculosis of other organs;Tuberculous peripheral lymphadenopathy;;008;4-003;3-004;2-005;1-006
