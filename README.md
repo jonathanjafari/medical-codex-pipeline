@@ -78,6 +78,45 @@ medical-codex-pipeline/
 ├── requirements.txt
 └── README.md
 ```
+## Updates to Project Structure & Data Handling
+
+### Input Files
+
+- The **full ICD-10-CM** (`icd10cm_order_2025.csv`) and **ICD-10-WHO** (`icd102019syst_codes_WHO.txt`) raw files are very large and **not committed** to GitHub (excluded via `.gitignore`).
+- Instead, **sample files** are provided so reviewers can preview the structure:
+  - `input/icd10cm_sample.csv` → first 100 lines of ICD-10-CM
+  - `input/icd10who_sample.txt` → first 100 lines of ICD-10-WHO
+  - `input/npidata_sample.csv` → first 100 lines of the NPI registry
+  - `input/Loinc_sample.csv` → first 100 lines of the LOINC file
+- This approach keeps the repo lightweight and GitHub-friendly, while allowing full datasets to be used locally when running the processors.
+
+### Output Files
+
+All processors now standardize to the same format:
+
+```csv
+code,description,last_updated
+```
+
+Outputs are saved under `output/csv/` for organization:
+
+```
+output/csv/icd10cm_standardized.csv
+output/csv/icd10who_standardized.csv
+output/csv/hcpcs_standardized.csv
+output/csv/loinc_standardized.csv
+output/csv/npi_standardized.csv
+output/csv/rxnorm_standardized.csv
+output/csv/snomed_standardized.csv
+```
+
+Each output is capped at **100 rows** (via `save_to_formats`) so that GitHub renders them quickly.
+
+### Why Two ICD-10 Inputs?
+
+- **ICD-10-CM** → U.S. version, more detailed, used for billing/reimbursement.
+- **ICD-10-WHO** → international version, less granular, used for morbidity/mortality reporting.
+- Both share the same core disease categories (e.g., Cholera, Typhoid), but ICD-10-CM expands into subcodes.
 
 ## Running Individual Processors
 
