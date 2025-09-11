@@ -10,7 +10,7 @@ This project processes 7 medical coding standards into clean CSV files. Healthca
 
 **Medical Codexes Processed:**
 - SNOMED CT (clinical terms)
-- ICD-10-CM / ICD-10-WHO (diagnosis codes) 
+- ICD-10-CM / ICD-10-WHO (diagnosis codes)
 - HCPCS (procedures)
 - LOINC (lab tests)
 - RxNorm (medications)
@@ -63,13 +63,19 @@ medical-codex-pipeline/
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
 ├── input/            # Raw data files
-│   ├── snomed_concepts.txt
+│   ├── sct2_Description_Full-en_US1000124_20250901.txt
+│   ├── snomed_sample.txt
 │   ├── icd10cm_order_2025.csv
+│   ├── icd10cm_sample.csv
 │   ├── icd102019syst_codes_WHO.txt
+│   ├── icd10who_sample.txt
 │   ├── HCPC2025_OCT_ANWEB.csv
 │   ├── Loinc.csv
+│   ├── Loinc_sample.csv
 │   ├── npidata_pfile_20050523-20250907.csv
-│   └── rxnorm_2024.txt
+│   ├── npidata_sample.csv
+│   ├── RXNCONSO.RRF
+│   └── rxnorm_sample.RRF
 ├── output/csv/       # Clean CSV outputs  
 ├── utils/            # Common functions
 │   └── common_functions.py
@@ -78,6 +84,7 @@ medical-codex-pipeline/
 ├── requirements.txt
 └── README.md
 ```
+
 ## Updates to Project Structure & Data Handling
 
 ### Input Files
@@ -88,9 +95,38 @@ medical-codex-pipeline/
   - `input/icd10who_sample.txt` → first 100 lines of ICD-10-WHO
   - `input/npidata_sample.csv` → first 100 lines of the NPI registry
   - `input/Loinc_sample.csv` → first 100 lines of the LOINC file
+  - `input/snomed_sample.txt` → first 100 lines of SNOMED CT
+  - `input/rxnorm_sample.RRF` → first 100 lines of RxNorm
 - This approach keeps the repo lightweight and GitHub-friendly, while allowing full datasets to be used locally when running the processors.
 
-### Output Files
+## Vocabularies: SNOMED CT & RxNorm
+
+This project processes medical vocabularies into a standardized format (`code, description, last_updated`).
+
+### SNOMED CT
+
+- **Raw input**: Download the latest SNOMED CT release and place the description file (e.g., `sct2_Description_Full-en_US1000124_20250901.txt`) into the `input/` directory.
+- **Sample input**: A trimmed file (`input/snomed_sample.txt`, 100 rows) is included for demonstration and GitHub safety.
+- **Processor**: Run with
+  ```bash
+  python3 scripts/snomed_processor.py
+  ```
+
+### RxNorm
+
+- **Raw input**: Download the latest RxNorm release and place the `RXNCONSO.RRF` file into the `input/` directory.
+- **Sample input**: A trimmed file (`input/rxnorm_sample.RRF`, 100 rows) is included for demonstration and GitHub safety.
+- **Processor**: Run with
+  ```bash
+  python3 scripts/rxnorm_processor.py
+  ```
+
+### Outputs
+
+- Full standardized outputs are written to `output/csv/` but are `.gitignored` (too large for GitHub).
+- Only sample inputs are included in GitHub so the processors can still be tested end-to-end.
+
+## Output Files
 
 All processors now standardize to the same format:
 
@@ -112,7 +148,7 @@ output/csv/snomed_standardized.csv
 
 Each output is capped at **100 rows** (via `save_to_formats`) so that GitHub renders them quickly.
 
-### Why Two ICD-10 Inputs?
+## Why Two ICD-10 Inputs?
 
 - **ICD-10-CM** → U.S. version, more detailed, used for billing/reimbursement.
 - **ICD-10-WHO** → international version, less granular, used for morbidity/mortality reporting.
@@ -133,13 +169,19 @@ python3 scripts/npi_processor.py
 ```
 
 **Expected input files in `input/`:**
-- `snomed_concepts.txt`
+- `sct2_Description_Full-en_US1000124_20250901.txt`
+- `snomed_sample.txt`
 - `icd10cm_order_2025.csv`
+- `icd10cm_sample.csv`
 - `icd102019syst_codes_WHO.txt`
+- `icd10who_sample.txt`
 - `HCPC2025_OCT_ANWEB.csv`
 - `Loinc.csv`
-- `rxnorm_2024.txt`
+- `Loinc_sample.csv`
+- `RXNCONSO.RRF`
+- `rxnorm_sample.RRF`
 - `npidata_pfile_20050523-20250907.csv`
+- `npidata_sample.csv`
 
 ## Key Features
 
@@ -174,6 +216,9 @@ python3 scripts/npi_processor.py
 **Problem:** macOS command confusion  
 **Solution:** All usage examples standardized with `python3`.
 
+**Problem:** SNOMED CT and RxNorm require a UMLS license from the National Library of Medicine.  
+**Solution:** Until access is granted, this repo includes 100-row sample inputs (`snomed_sample.txt`, `rxnorm_sample.RRF`) for demonstration.
+
 ## Testing
 
 Each processor can be tested individually with the sample files in `input/`.
@@ -199,7 +244,7 @@ The processors will:
 - [x] Data validation & cleaning
 - [x] Error handling & logging
 - [x] Complete documentation
-- [x] Sample outputs
+- [x] Sample inputs
 - [x] requirements.txt
 
 ## Dependencies

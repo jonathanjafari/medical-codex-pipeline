@@ -44,7 +44,7 @@ def save_to_formats(df: pd.DataFrame, base_filename: str, limit: int = 100) -> N
 
         # Add last_updated column with current timestamp
         from datetime import datetime
-        df["last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+        df.loc[:, "last_updated"] = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
         Path(base_filename).parent.mkdir(parents=True, exist_ok=True)
         out_path = f"{base_filename}.csv"

@@ -13,14 +13,12 @@ def load_loinc_data(filepath: str) -> pd.DataFrame:
 
 def clean_loinc_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize LOINC codes."""
-    df = raw.rename(columns={"LOINC_NUM": "code", "COMPONENT": "description"})[
-        ["code", "description"]
-    ].copy()
+    df = raw.rename(columns={"LOINC_NUM": "code", "COMPONENT": "description"}).copy()
     df = df.dropna(subset=["code", "description"])
     df["code"] = df["code"].str.strip()
     df["description"] = df["description"].str.strip()
     df = df.drop_duplicates()
-    df["is_valid"] = df["code"].apply(lambda c: validate_code_format(c, "loinc"))
+    df = df[["code", "description"]]
     return df
 
 

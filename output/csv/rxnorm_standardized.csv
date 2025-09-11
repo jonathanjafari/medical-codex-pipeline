@@ -1,5 +1,101 @@
 code,description,last_updated
-12345,Aspirin 81 MG Oral Tablet,2025-09-11 03:59:40
-67890,Lisinopril 10 MG Oral Tablet,2025-09-11 03:59:40
-98765,Metformin 500 MG Oral Tablet,2025-09-11 03:59:40
-BAD,Invalid row,2025-09-11 03:59:40
+38,Parlodel,2025-09-11 15:27:34
+44,mesna,2025-09-11 15:27:34
+61,beta-alanine,2025-09-11 15:27:34
+73,docosahexaenoate,2025-09-11 15:27:34
+74,4-aminobenzoic acid,2025-09-11 15:27:34
+74,aminobenzoic acid,2025-09-11 15:27:34
+90,eicosapentaenoic acid,2025-09-11 15:27:34
+94,5-hydroxytryptophan,2025-09-11 15:27:34
+94,oxitriptan,2025-09-11 15:27:34
+97,ticlopidine hydrochloride,2025-09-11 15:27:34
+99,6-aminocaproic acid,2025-09-11 15:27:34
+99,aminocaproic acid,2025-09-11 15:27:34
+103,mercaptopurine,2025-09-11 15:27:34
+110,oxyquinoline,2025-09-11 15:27:34
+149,acebutolol,2025-09-11 15:27:34
+154,acenocoumarol,2025-09-11 15:27:34
+155,acepromazine,2025-09-11 15:27:34
+161,acetaminophen,2025-09-11 15:27:34
+162,acetanilide,2025-09-11 15:27:34
+164,acetate,2025-09-11 15:27:34
+167,acetazolamide,2025-09-11 15:27:34
+167,acetaZOLAMIDE,2025-09-11 15:27:34
+168,acetic acid,2025-09-11 15:27:34
+173,acetohexamide,2025-09-11 15:27:34
+173,acetoHEXAMIDE,2025-09-11 15:27:34
+178,acetone,2025-09-11 15:27:34
+193,acetylcarnitine,2025-09-11 15:27:34
+194,acetylcholine,2025-09-11 15:27:34
+195,acetylcholinesterase,2025-09-11 15:27:34
+197,acetylcysteine,2025-09-11 15:27:34
+199,acetyldigoxins,2025-09-11 15:27:34
+199,acetyldigoxin,2025-09-11 15:27:34
+200,acetylene,2025-09-11 15:27:34
+211,Topicycline,2025-09-11 15:27:34
+236,acidulated phosphate fluoride,2025-09-11 15:27:34
+239,aclarubicin,2025-09-11 15:27:34
+242,aconite,2025-09-11 15:27:34
+249,acriflavine,2025-09-11 15:27:34
+249,euflavine,2025-09-11 15:27:34
+270,spectinomycin,2025-09-11 15:27:34
+272,activated charcoal,2025-09-11 15:27:34
+281,acyclovir,2025-09-11 15:27:34
+290,adenine,2025-09-11 15:27:34
+296,adenosine,2025-09-11 15:27:34
+309,adenosine monophosphate,2025-09-11 15:27:34
+309,adenosine 5'-monophosphate,2025-09-11 15:27:34
+309,5'-adenylic acid,2025-09-11 15:27:34
+318,adenosine triphosphate,2025-09-11 15:27:34
+318,ATP,2025-09-11 15:27:34
+332,Adipex-P,2025-09-11 15:27:34
+333,adiphenine,2025-09-11 15:27:34
+362,epinephrine hydrochloride,2025-09-11 15:27:34
+362,EPINEPHrine hydrochloride,2025-09-11 15:27:34
+376,corticotropin,2025-09-11 15:27:34
+388,polymyxin B sulfate,2025-09-11 15:27:34
+397,agar,2025-09-11 15:27:34
+411,air,2025-09-11 15:27:34
+411,medical air,2025-09-11 15:27:34
+423,ajmaline,2025-09-11 15:27:34
+426,alanine,2025-09-11 15:27:34
+426,L-alanine,2025-09-11 15:27:34
+430,albendazole,2025-09-11 15:27:34
+435,albuterol,2025-09-11 15:27:34
+448,ethanol,2025-09-11 15:27:34
+460,alcuronium,2025-09-11 15:27:34
+479,Alfenta,2025-09-11 15:27:34
+480,alfentanil,2025-09-11 15:27:34
+480,ALfentanil,2025-09-11 15:27:34
+508,allantoin,2025-09-11 15:27:34
+513,allethrin,2025-09-11 15:27:34
+516,allobarbital,2025-09-11 15:27:34
+519,allopurinol,2025-09-11 15:27:34
+525,allylestrenol,2025-09-11 15:27:34
+528,almitrine,2025-09-11 15:27:34
+529,almitrine dimesylate,2025-09-11 15:27:34
+535,alpha 1-antitrypsin,2025-09-11 15:27:34
+535,alfa1 antitrypsin,2025-09-11 15:27:34
+560,alpha-amylase,2025-09-11 15:27:34
+569,eflornithine,2025-09-11 15:27:34
+594,alphaprodine,2025-09-11 15:27:34
+595,algestone,2025-09-11 15:27:34
+596,alprazolam,2025-09-11 15:27:34
+596,ALPRAZolam,2025-09-11 15:27:34
+597,alprenolol,2025-09-11 15:27:34
+598,alprostadil,2025-09-11 15:27:34
+599,alseroxylon,2025-09-11 15:27:34
+611,aluminum aspirin,2025-09-11 15:27:34
+612,aluminum hydroxide,2025-09-11 15:27:34
+612,aluminium hydroxide,2025-09-11 15:27:34
+613,aluminum hydroxide gel,2025-09-11 15:27:34
+615,aluminum oxide,2025-09-11 15:27:34
+615,aluminium oxide,2025-09-11 15:27:34
+620,amantadine,2025-09-11 15:27:34
+621,amantadine sulfate,2025-09-11 15:27:34
+623,ambenonium,2025-09-11 15:27:34
+624,ambenonium chloride,2025-09-11 15:27:34
+625,ambroxol,2025-09-11 15:27:34
+626,amdinocillin,2025-09-11 15:27:34
+626,mecillinam,2025-09-11 15:27:34
+627,amdinocillin pivoxil,2025-09-11 15:27:34

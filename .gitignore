@@ -23,25 +23,16 @@ Thumbs.db
 .idea/
 
 # ----------------------
-# Logs (we don’t need to push runtime logs)
+# Project-specific ignores
 # ----------------------
-logs/*
-!logs/.gitkeep
 
-# ----------------------
-# Archives / temporary files
-# ----------------------
-*.log
-*.zip
-*.tar.gz
-*.bak
+# Ignore full raw vocab datasets (too large for GitHub)
+input/*.RRF
+input/sct2_*.txt
+input/SnomedCT_*/
+input/RxNorm_*/
 
-# ----------------------
-# Input data handling
-# ----------------------
-# Ignore all raw CSV/TXT files
-input/*.csv
-input/*.txt
-
-# Keep small sample files for testing
+# Allow sample inputs (keep them in GitHub)
 !input/*sample*
+
+# Keep standardized outputs (DO NOT ignore them — included in GitHub)
