@@ -87,17 +87,18 @@ medical-codex-pipeline/
 
 ## Input Files
 
-Expected input files in `input/`:
+Expected input files in `input/` (local only):
 
-- `sct2_Description_Full-en_US1000124_20250901.txt` → SNOMED CT (requires UMLS license)
-- `icd10cm_order_2025.csv` → ICD-10-CM
-- `icd102019syst_codes_WHO.txt` → ICD-10-WHO
-- `HCPC2025_OCT_ANWEB.csv` → HCPCS (public dataset)
-- `Loinc.csv` → LOINC
-- `RXNCONSO.RRF` → RxNorm (requires UMLS license)
-- `npidata_pfile_20050523-20250907.csv` → NPI (public dataset, very large)
+- `sct2_Description_Full-en_US1000124_20250901.txt` → SNOMED CT (requires UMLS license)  
+- `icd10cm_order_2025.csv` → ICD-10-CM  
+- `icd102019syst_codes_WHO.txt` → ICD-10-WHO  
+- `HCPC2025_OCT_ANWEB.csv` → HCPCS (public dataset)  
+- `Loinc.csv` → LOINC  
+- `RXNCONSO.RRF` → RxNorm (requires UMLS license)  
+- `npidata_pfile_20050523-20250907.csv` → NPI (public dataset, very large)  
 
-These full datasets are excluded from GitHub history with .gitignore (to avoid size and licensing issues) but must be placed in the `input/` folder locally before running the processors.
+⚠️ **Note**: These full datasets are **excluded from GitHub** with `.gitignore` to avoid size and licensing issues.  
+They must be placed in a local `input/` folder before running the processors.
 
 ## Output Files
 
