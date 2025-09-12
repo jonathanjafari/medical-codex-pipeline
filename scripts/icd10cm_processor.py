@@ -16,44 +16,46 @@ INPUT_FILE = "input/icd10cm_order_2025.csv"
 
 
 def load_icd10cm_data(filepath: str) -> pd.DataFrame:
-    """Load raw ICD-10-CM data from a CSV file."""
-    df = pd.read_csv(filepath, sep=",", dtype=str)
-    return df
+    """Load raw ICD-10-CM data file."""
+    try:
+        return pd.read_csv(filepath, dtype=str)
+    except FileNotFoundError:
+        import logging
+        logging.error(f"File not found: {filepath}")
+        raise
+    except Exception as e:
+        import logging
+        logging.error(f"Error loading ICD-10-CM data: {e}")
+        raise
 
 
 def clean_icd10cm_data(raw: pd.DataFrame) -> pd.DataFrame:
     """Clean and standardize ICD-10-CM codes."""
-    df = raw.rename(columns={"code": "code", "description": "description"}).copy()
-
-    # Drop missing values
-    df = df.dropna(subset=["code", "description"])
-
-    # Strip spaces
-    df["code"] = df["code"].str.strip()
-    df["description"] = df["description"].str.strip()
-
-    # Validate codes
-    df = df[df["code"].apply(lambda x: validate_code_format(x, "icd10cm"))]
-
-    # Remove duplicates
-    df = df.drop_duplicates()
-
-    # Add last_updated
-    if not df.empty:
-        df["last_updated"] = get_timestamp()
-
-    return df[["code", "description", "last_updated"]]
+    try:
+        df = raw.rename(columns={"code": "code", "description": "description"}).copy()
+        df = df.dropna(subset=["code", "description"])
+        df["code"] = df["code"].str.strip()
+        df["description"] = df["description"].str.strip()
+        df = df.drop_duplicates()
+        df = df[["code", "description"]]
+        return df
+    except Exception as e:
+        import logging
+        logging.error(f"Error cleaning ICD-10-CM data: {e}")
+        raise
 
 
 def main() -> None:
     import logging
     init_logging()
 
-    raw = load_icd10cm_data(INPUT_FILE)
-    clean = clean_icd10cm_data(raw)
-    save_to_formats(clean, "output/csv/icd10cm_standardized")
-
-    logging.info("ICD-10-CM processing completed.")
+    try:
+        raw = load_icd10cm_data("input/icd10cm_order_2025.csv")
+        clean = clean_icd10cm_data(raw)
+        save_to_formats(clean, "output/csv/icd10cm_standardized")
+        logging.info("ICD-10-CM processing completed.")
+    except Exception as e:
+        logging.error(f"ICD-10-CM processing failed: {e}")
 
 
 if __name__ == "__main__":
