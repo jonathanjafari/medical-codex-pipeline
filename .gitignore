@@ -26,17 +26,14 @@ Thumbs.db
 # Project: Medical Codex Pipeline
 # ----------------------
 
-# Inputs (licensed / large). Keep placeholders only.
+# Inputs (licensed / large). Ignore all input datasets.
 input/*
 !input/.gitkeep
 
-# Outputs (generated). Keep placeholders only.
-output/*
-!output/.gitkeep
-!output/csv/.gitkeep
-!output/json/.gitkeep
+# Outputs (keep all generated CSVs, ignore temporary junk)
+# (no ignore rule needed: outputs are allowed in GitHub)
 
-# Logs (generated). Keep placeholder only.
+# Logs (ignore all logs, keep placeholder)
 logs/*
 !logs/.gitkeep
 
