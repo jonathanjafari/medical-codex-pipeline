@@ -23,35 +23,33 @@ Thumbs.db
 .idea/
 
 # ----------------------
-# Logs (we don’t need to push runtime logs)
+# Project: Medical Codex Pipeline
 # ----------------------
-logs/*
+
+# Inputs (licensed / large). Keep placeholders only.
+input/
+!input/.gitkeep
+
+# Outputs (generated). Keep placeholders only.
+output/
+!output/.gitkeep
+!output/csv/.gitkeep
+!output/json/.gitkeep
+
+# Logs (generated). Keep placeholder only.
+logs/
 !logs/.gitkeep
 
-# ----------------------
-# Archives / temporary files
-# ----------------------
-*.log
+# Temp / downloads / cache
+tmp/
+downloads/
+data/
+cache/
+
+# Defensive: if someone drops big vendor files at repo root
+*.RRF
+*.rrf
 *.zip
-*.tar.gz
-*.bak
-
-# ----------------------
-# Input data handling
-# ----------------------
-# Ignore all raw CSV/TXT files
-input/*.csv
-input/*.txt
-
-# Keep small sample files for testing
-!input/*sample*
-
-# Ignore old sample and placeholder input files
-input/*_sample.csv
-input/*_sample.txt
-input/*_concepts.txt
-input/rxnorm_2024.txt
-input/*.RRF
-input/*.txt
-input/*.csv
-
+*.7z
+*.gz
+*.tar
