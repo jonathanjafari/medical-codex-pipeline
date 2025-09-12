@@ -182,11 +182,24 @@ python3 scripts/npi_processor.py
 
 ## Dependencies
 
-### Required packages:
+### Required packages (see `requirements.txt`):
 
-- **pandas** >= 1.5.0 – Data manipulation
-- **lxml** >= 4.9.0 – XML parsing (future use)
-- **requests** >= 2.28.0 – Optional, for auto-downloads
+- **pandas** – Data manipulation
+- **polars** – Fast DataFrame library (alternative to pandas)
+- **numpy** – Numerical computing
+- **scipy** – Scientific computing utilities
+- **matplotlib** – Plotting and visualization
+- **sqlalchemy** – Database connectivity
+- **requests** – Optional, for auto-downloads
+
+### Standard libraries used:
+
+pathlib, datetime, logging, re, os
+
+Install with:
+
+```bash
+pip install -r requirements.txt
 
 ### Standard libraries used:
 
