@@ -27,17 +27,17 @@ Thumbs.db
 # ----------------------
 
 # Inputs (licensed / large). Keep placeholders only.
-input/
+input/*
 !input/.gitkeep
 
 # Outputs (generated). Keep placeholders only.
-output/
+output/*
 !output/.gitkeep
 !output/csv/.gitkeep
 !output/json/.gitkeep
 
 # Logs (generated). Keep placeholder only.
-logs/
+logs/*
 !logs/.gitkeep
 
 # Temp / downloads / cache
