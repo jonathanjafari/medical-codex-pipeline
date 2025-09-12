@@ -1,100 +1,101 @@
 code,description,last_updated
-A00,Cholera,2025-09-11 22:48:20
-A000,"Cholera due to Vibrio cholerae 01, biovar cholerae",2025-09-11 22:48:20
-A001,"Cholera due to Vibrio cholerae 01, biovar eltor",2025-09-11 22:48:20
-A009,"Cholera, unspecified",2025-09-11 22:48:20
-A01,Typhoid and paratyphoid fevers,2025-09-11 22:48:20
-A010,Typhoid fever,2025-09-11 22:48:20
-A0100,"Typhoid fever, unspecified",2025-09-11 22:48:20
-A0101,Typhoid meningitis,2025-09-11 22:48:20
-A0102,Typhoid fever with heart involvement,2025-09-11 22:48:20
-A0103,Typhoid pneumonia,2025-09-11 22:48:20
-A0104,Typhoid arthritis,2025-09-11 22:48:20
-A0105,Typhoid osteomyelitis,2025-09-11 22:48:20
-A0109,Typhoid fever with other complications,2025-09-11 22:48:20
-A011,Paratyphoid fever A,2025-09-11 22:48:20
-A012,Paratyphoid fever B,2025-09-11 22:48:20
-A013,Paratyphoid fever C,2025-09-11 22:48:20
-A014,"Paratyphoid fever, unspecified",2025-09-11 22:48:20
-A02,Other salmonella infections,2025-09-11 22:48:20
-A020,Salmonella enteritis,2025-09-11 22:48:20
-A021,Salmonella sepsis,2025-09-11 22:48:20
-A022,Localized salmonella infections,2025-09-11 22:48:20
-A0220,"Localized salmonella infection, unspecified",2025-09-11 22:48:20
-A0221,Salmonella meningitis,2025-09-11 22:48:20
-A0222,Salmonella pneumonia,2025-09-11 22:48:20
-A0223,Salmonella arthritis,2025-09-11 22:48:20
-A0224,Salmonella osteomyelitis,2025-09-11 22:48:20
-A0225,Salmonella pyelonephritis,2025-09-11 22:48:20
-A0229,Salmonella with other localized infection,2025-09-11 22:48:20
-A028,Other specified salmonella infections,2025-09-11 22:48:20
-A029,"Salmonella infection, unspecified",2025-09-11 22:48:20
-A03,Shigellosis,2025-09-11 22:48:20
-A030,Shigellosis due to Shigella dysenteriae,2025-09-11 22:48:20
-A031,Shigellosis due to Shigella flexneri,2025-09-11 22:48:20
-A032,Shigellosis due to Shigella boydii,2025-09-11 22:48:20
-A033,Shigellosis due to Shigella sonnei,2025-09-11 22:48:20
-A038,Other shigellosis,2025-09-11 22:48:20
-A039,"Shigellosis, unspecified",2025-09-11 22:48:20
-A04,Other bacterial intestinal infections,2025-09-11 22:48:20
-A040,Enteropathogenic Escherichia coli infection,2025-09-11 22:48:20
-A041,Enterotoxigenic Escherichia coli infection,2025-09-11 22:48:20
-A042,Enteroinvasive Escherichia coli infection,2025-09-11 22:48:20
-A043,Enterohemorrhagic Escherichia coli infection,2025-09-11 22:48:20
-A044,Other intestinal Escherichia coli infections,2025-09-11 22:48:20
-A045,Campylobacter enteritis,2025-09-11 22:48:20
-A046,Enteritis due to Yersinia enterocolitica,2025-09-11 22:48:20
-A047,Enterocolitis due to Clostridium difficile,2025-09-11 22:48:20
-A0471,"Enterocolitis due to Clostridium difficile, recurrent",2025-09-11 22:48:20
-A0472,"Enterocolitis d/t Clostridium difficile, not spcf as recur   Enterocolitis due to Clostridium difficile, not specified as recurrent",2025-09-11 22:48:20
-A048,Other specified bacterial intestinal infections,2025-09-11 22:48:20
-A049,"Bacterial intestinal infection, unspecified",2025-09-11 22:48:20
-A05,"Oth bacterial foodborne intoxications, NEC",2025-09-11 22:48:20
-A050,Foodborne staphylococcal intoxication,2025-09-11 22:48:20
-A051,Botulism food poisoning,2025-09-11 22:48:20
-A052,Foodborne Clostridium perfringens intoxication,2025-09-11 22:48:20
-A053,Foodborne Vibrio parahaemolyticus intoxication,2025-09-11 22:48:20
-A054,Foodborne Bacillus cereus intoxication,2025-09-11 22:48:20
-A055,Foodborne Vibrio vulnificus intoxication,2025-09-11 22:48:20
-A058,Other specified bacterial foodborne intoxications,2025-09-11 22:48:20
-A059,"Bacterial foodborne intoxication, unspecified",2025-09-11 22:48:20
-A06,Amebiasis,2025-09-11 22:48:20
-A060,Acute amebic dysentery,2025-09-11 22:48:20
-A061,Chronic intestinal amebiasis,2025-09-11 22:48:20
-A062,Amebic nondysenteric colitis,2025-09-11 22:48:20
-A063,Ameboma of intestine,2025-09-11 22:48:20
-A064,Amebic liver abscess,2025-09-11 22:48:20
-A065,Amebic lung abscess,2025-09-11 22:48:20
-A066,Amebic brain abscess,2025-09-11 22:48:20
-A067,Cutaneous amebiasis,2025-09-11 22:48:20
-A068,Amebic infection of other sites,2025-09-11 22:48:20
-A0681,Amebic cystitis,2025-09-11 22:48:20
-A0682,Other amebic genitourinary infections,2025-09-11 22:48:20
-A0689,Other amebic infections,2025-09-11 22:48:20
-A069,"Amebiasis, unspecified",2025-09-11 22:48:20
-A07,Other protozoal intestinal diseases,2025-09-11 22:48:20
-A070,Balantidiasis,2025-09-11 22:48:20
-A071,Giardiasis [lambliasis],2025-09-11 22:48:20
-A072,Cryptosporidiosis,2025-09-11 22:48:20
-A073,Isosporiasis,2025-09-11 22:48:20
-A074,Cyclosporiasis,2025-09-11 22:48:20
-A078,Other specified protozoal intestinal diseases,2025-09-11 22:48:20
-A079,"Protozoal intestinal disease, unspecified",2025-09-11 22:48:20
-A08,Viral and other specified intestinal infections,2025-09-11 22:48:20
-A080,Rotaviral enteritis,2025-09-11 22:48:20
-A081,Acute gastrent d/t Norwalk agent and oth small round viruses Acute gastroenteropathy due to Norwalk agent and other small round viruses,2025-09-11 22:48:20
-A0811,Acute gastroenteropathy due to Norwalk agent,2025-09-11 22:48:20
-A0819,Acute gastroenteropathy due to other small round viruses,2025-09-11 22:48:20
-A082,Adenoviral enteritis,2025-09-11 22:48:20
-A083,Other viral enteritis,2025-09-11 22:48:20
-A0831,Calicivirus enteritis,2025-09-11 22:48:20
-A0832,Astrovirus enteritis,2025-09-11 22:48:20
-A0839,Other viral enteritis,2025-09-11 22:48:20
-A084,"Viral intestinal infection, unspecified",2025-09-11 22:48:20
-A088,Other specified intestinal infections,2025-09-11 22:48:20
-A09,"Infectious gastroenteritis and colitis, unspecified",2025-09-11 22:48:20
-A15,Respiratory tuberculosis,2025-09-11 22:48:20
-A150,Tuberculosis of lung,2025-09-11 22:48:20
-A154,Tuberculosis of intrathoracic lymph nodes,2025-09-11 22:48:20
-A155,"Tuberculosis of larynx, trachea and bronchus",2025-09-11 22:48:20
-A156,Tuberculous pleurisy,2025-09-11 22:48:20
+A00,Cholera,2025-09-12 21:55:11
+A000,"Cholera due to Vibrio cholerae 01, biovar cholerae",2025-09-12 21:55:11
+A001,"Cholera due to Vibrio cholerae 01, biovar eltor",2025-09-12 21:55:11
+A009,"Cholera, unspecified",2025-09-12 21:55:11
+A01,Typhoid and paratyphoid fevers,2025-09-12 21:55:11
+A010,Typhoid fever,2025-09-12 21:55:11
+A0100,"Typhoid fever, unspecified",2025-09-12 21:55:11
+A0101,Typhoid meningitis,2025-09-12 21:55:11
+A0102,Typhoid fever with heart involvement,2025-09-12 21:55:11
+A0103,Typhoid pneumonia,2025-09-12 21:55:11
+A0104,Typhoid arthritis,2025-09-12 21:55:11
+A0105,Typhoid osteomyelitis,2025-09-12 21:55:11
+A0109,Typhoid fever with other complications,2025-09-12 21:55:11
+A011,Paratyphoid fever A,2025-09-12 21:55:11
+A012,Paratyphoid fever B,2025-09-12 21:55:11
+A013,Paratyphoid fever C,2025-09-12 21:55:11
+A014,"Paratyphoid fever, unspecified",2025-09-12 21:55:11
+A02,Other salmonella infections,2025-09-12 21:55:11
+A020,Salmonella enteritis,2025-09-12 21:55:11
+A021,Salmonella sepsis,2025-09-12 21:55:11
+A022,Localized salmonella infections,2025-09-12 21:55:11
+A0220,"Localized salmonella infection, unspecified",2025-09-12 21:55:11
+A0221,Salmonella meningitis,2025-09-12 21:55:11
+A0222,Salmonella pneumonia,2025-09-12 21:55:11
+A0223,Salmonella arthritis,2025-09-12 21:55:11
+A0224,Salmonella osteomyelitis,2025-09-12 21:55:11
+A0225,Salmonella pyelonephritis,2025-09-12 21:55:11
+A0229,Salmonella with other localized infection,2025-09-12 21:55:11
+A028,Other specified salmonella infections,2025-09-12 21:55:11
+A029,"Salmonella infection, unspecified",2025-09-12 21:55:11
+A03,Shigellosis,2025-09-12 21:55:11
+A030,Shigellosis due to Shigella dysenteriae,2025-09-12 21:55:11
+A031,Shigellosis due to Shigella flexneri,2025-09-12 21:55:11
+A032,Shigellosis due to Shigella boydii,2025-09-12 21:55:11
+A033,Shigellosis due to Shigella sonnei,2025-09-12 21:55:11
+A038,Other shigellosis,2025-09-12 21:55:11
+A039,"Shigellosis, unspecified",2025-09-12 21:55:11
+A04,Other bacterial intestinal infections,2025-09-12 21:55:11
+A040,Enteropathogenic Escherichia coli infection,2025-09-12 21:55:11
+A041,Enterotoxigenic Escherichia coli infection,2025-09-12 21:55:11
+A042,Enteroinvasive Escherichia coli infection,2025-09-12 21:55:11
+A043,Enterohemorrhagic Escherichia coli infection,2025-09-12 21:55:11
+A044,Other intestinal Escherichia coli infections,2025-09-12 21:55:11
+A045,Campylobacter enteritis,2025-09-12 21:55:11
+A046,Enteritis due to Yersinia enterocolitica,2025-09-12 21:55:11
+A047,Enterocolitis due to Clostridium difficile,2025-09-12 21:55:11
+A0471,"Enterocolitis due to Clostridium difficile, recurrent",2025-09-12 21:55:11
+A0472,"Enterocolitis d/t Clostridium difficile, not spcf as recur   Enterocolitis due to Clostridium difficile, not specified as recurrent",2025-09-12 21:55:11
+A048,Other specified bacterial intestinal infections,2025-09-12 21:55:11
+A049,"Bacterial intestinal infection, unspecified",2025-09-12 21:55:11
+A05,"Oth bacterial foodborne intoxications, NEC",2025-09-12 21:55:11
+A050,Foodborne staphylococcal intoxication,2025-09-12 21:55:11
+A051,Botulism food poisoning,2025-09-12 21:55:11
+A052,Foodborne Clostridium perfringens intoxication,2025-09-12 21:55:11
+A053,Foodborne Vibrio parahaemolyticus intoxication,2025-09-12 21:55:11
+A054,Foodborne Bacillus cereus intoxication,2025-09-12 21:55:11
+A055,Foodborne Vibrio vulnificus intoxication,2025-09-12 21:55:11
+A058,Other specified bacterial foodborne intoxications,2025-09-12 21:55:11
+A059,"Bacterial foodborne intoxication, unspecified",2025-09-12 21:55:11
+A06,Amebiasis,2025-09-12 21:55:11
+A060,Acute amebic dysentery,2025-09-12 21:55:11
+A061,Chronic intestinal amebiasis,2025-09-12 21:55:11
+A062,Amebic nondysenteric colitis,2025-09-12 21:55:11
+A063,Ameboma of intestine,2025-09-12 21:55:11
+A064,Amebic liver abscess,2025-09-12 21:55:11
+A065,Amebic lung abscess,2025-09-12 21:55:11
+A066,Amebic brain abscess,2025-09-12 21:55:11
+A067,Cutaneous amebiasis,2025-09-12 21:55:11
+A068,Amebic infection of other sites,2025-09-12 21:55:11
+A0681,Amebic cystitis,2025-09-12 21:55:11
+A0682,Other amebic genitourinary infections,2025-09-12 21:55:11
+A0689,Other amebic infections,2025-09-12 21:55:11
+A069,"Amebiasis, unspecified",2025-09-12 21:55:11
+A07,Other protozoal intestinal diseases,2025-09-12 21:55:11
+A070,Balantidiasis,2025-09-12 21:55:11
+A071,Giardiasis [lambliasis],2025-09-12 21:55:11
+A072,Cryptosporidiosis,2025-09-12 21:55:11
+A073,Isosporiasis,2025-09-12 21:55:11
+A074,Cyclosporiasis,2025-09-12 21:55:11
+A078,Other specified protozoal intestinal diseases,2025-09-12 21:55:11
+A079,"Protozoal intestinal disease, unspecified",2025-09-12 21:55:11
+A08,Viral and other specified intestinal infections,2025-09-12 21:55:11
+A080,Rotaviral enteritis,2025-09-12 21:55:11
+A081,Acute gastrent d/t Norwalk agent and oth small round viruses Acute gastroenteropathy due to Norwalk agent and other small round viruses,2025-09-12 21:55:11
+A0811,Acute gastroenteropathy due to Norwalk agent,2025-09-12 21:55:11
+A0819,Acute gastroenteropathy due to other small round viruses,2025-09-12 21:55:11
+A082,Adenoviral enteritis,2025-09-12 21:55:11
+A083,Other viral enteritis,2025-09-12 21:55:11
+A0831,Calicivirus enteritis,2025-09-12 21:55:11
+A0832,Astrovirus enteritis,2025-09-12 21:55:11
+A0839,Other viral enteritis,2025-09-12 21:55:11
+A084,"Viral intestinal infection, unspecified",2025-09-12 21:55:11
+A088,Other specified intestinal infections,2025-09-12 21:55:11
+A09,"Infectious gastroenteritis and colitis, unspecified",2025-09-12 21:55:11
+A15,Respiratory tuberculosis,2025-09-12 21:55:11
+A150,Tuberculosis of lung,2025-09-12 21:55:11
+A154,Tuberculosis of intrathoracic lymph nodes,2025-09-12 21:55:11
+A155,"Tuberculosis of larynx, trachea and bronchus",2025-09-12 21:55:11
+A156,Tuberculous pleurisy,2025-09-12 21:55:11
+A157,Primary respiratory tuberculosis,2025-09-12 21:55:11

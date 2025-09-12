@@ -1,101 +1,101 @@
 code,description,last_updated
-100000-9,Health informatics pioneer and the father of LOINC,2025-09-11 22:49:19
-100001-7,Health informatics pioneer and cofounder of LOINC,2025-09-11 22:49:19
-100002-5,Specimen care is maintained,2025-09-11 22:49:19
-100003-3,Team communication is maintained throughout care,2025-09-11 22:49:19
-100004-1,Demonstrates knowledge of the expected psychosocial responses to the procedure,2025-09-11 22:49:19
-100005-8,Demonstrates knowledge of nutritional management related to the procedure,2025-09-11 22:49:19
-100006-6,Demonstrates knowledge of medication management,2025-09-11 22:49:19
-100007-4,Demonstrates knowledge of pain management,2025-09-11 22:49:19
-10000-8,R wave duration.lead AVR,2025-09-11 22:49:19
-100008-2,Demonstrates knowledge of wound management,2025-09-11 22:49:19
-100009-0,Demonstrates knowledge of the procedure and expected results,2025-09-11 22:49:19
-100010-8,"No injury related to procedure equipment, medical supplies, or instrumentation",2025-09-11 22:49:19
-100011-6,No injury related to an electrical source,2025-09-11 22:49:19
-100012-4,Participates in decisions affecting the patient's plan of care,2025-09-11 22:49:19
-100013-2,Participates in the discharge process,2025-09-11 22:49:19
-100014-0,Psychosocial health is maintained at or improved from baseline,2025-09-11 22:49:19
-100015-7,No injury related to positioning due to care or procedure,2025-09-11 22:49:19
-10001-6,R wave duration.lead I,2025-09-11 22:49:19
-100016-5,No injury related to a laser source,2025-09-11 22:49:19
-100017-3,Perioperative nursing data set outcomes panel,2025-09-11 22:49:19
-100018-1,Note,2025-09-11 22:49:19
-100019-9,ALK gene targeted mutation analysis,2025-09-11 22:49:19
-100020-7,GNA11 gene targeted mutation analysis,2025-09-11 22:49:19
-100021-5,GNAQ gene targeted mutation analysis,2025-09-11 22:49:19
-100022-3,IDH1 gene targeted mutation analysis,2025-09-11 22:49:19
-100023-1,IDH2 gene targeted mutation analysis,2025-09-11 22:49:19
-10002-4,R wave duration.lead II,2025-09-11 22:49:19
-100024-9,SETBP1 gene targeted mutation analysis,2025-09-11 22:49:19
-100025-6,SRSF2 gene targeted mutation analysis,2025-09-11 22:49:19
-100026-4,MET gene targeted mutation analysis,2025-09-11 22:49:19
-100027-2,SMAD4 gene targeted mutation analysis,2025-09-11 22:49:19
-100028-0,FBXW7 gene targeted mutation analysis,2025-09-11 22:49:19
-100029-8,Cancer related multigene analysis,2025-09-11 22:49:19
-100030-6,Axis I: Temporal aspects score,2025-09-11 22:49:19
-100031-4,Axis II: Spatial aspects score,2025-09-11 22:49:19
-10003-2,R wave duration.lead III,2025-09-11 22:49:19
-100032-2,Axis III: Drug taking behavior score,2025-09-11 22:49:19
-100033-0,Axis IV: Utilization of the health care system score,2025-09-11 22:49:19
-100034-8,Provider of automated external defibrillator use,2025-09-11 22:49:19
-100035-5,Exam finding location,2025-09-11 22:49:19
-100036-3,Exam finding location,2025-09-11 22:49:19
-100037-1,Patient contact disposition,2025-09-11 22:49:19
-100038-9,Patient evaluation disposition,2025-09-11 22:49:19
-100039-7,Crew disposition for patient care,2025-09-11 22:49:19
-10004-0,R wave duration.lead V1,2025-09-11 22:49:19
-100040-5,Patient transport disposition,2025-09-11 22:49:19
-100041-3,Aminoglycoside,2025-09-11 22:49:19
-100042-1,Atovaquone,2025-09-11 22:49:19
-100043-9,Azithromycin+Ethambutol,2025-09-11 22:49:19
-100044-7,Cefcapene,2025-09-11 22:49:19
-100045-4,Cefozopran,2025-09-11 22:49:19
-100046-2,Cefquinome,2025-09-11 22:49:19
-100047-0,Cefteram,2025-09-11 22:49:19
-100048-8,Clarithromycin+Ethambutol,2025-09-11 22:49:19
-100049-6,Eravacycline,2025-09-11 22:49:19
-100050-4,Erythromycin+Ethambutol,2025-09-11 22:49:19
-100051-2,Ethambutol+rifAMPin,2025-09-11 22:49:19
-100052-0,Flomoxef,2025-09-11 22:49:19
-100053-8,Fluoroquinolone,2025-09-11 22:49:19
-100054-6,Gamithromycin,2025-09-11 22:49:19
-100055-3,Optochin,2025-09-11 22:49:19
-100056-1,Panipenem,2025-09-11 22:49:19
-10005-7,R wave duration.lead V2,2025-09-11 22:49:19
-100057-9,Prothionamide,2025-09-11 22:49:19
-100058-7,Prulifloxacin,2025-09-11 22:49:19
-100059-5,Rifapentine,2025-09-11 22:49:19
-100060-3,Tildipirosin,2025-09-11 22:49:19
-100061-1,Tosufloxacin,2025-09-11 22:49:19
-100062-9,Standard Dermatology Outcome Measures panel,2025-09-11 22:49:19
-100063-7,Primary skin concern,2025-09-11 22:49:19
-100064-5,Itch severity,2025-09-11 22:49:19
-10006-5,R wave duration.lead V3,2025-09-11 22:49:19
-100065-2,Satisfied with treatment,2025-09-11 22:49:19
-100066-0,Specular microscopy panel,2025-09-11 22:49:19
-100067-8,Image magnification,2025-09-11 22:49:19
-100068-6,Fixation point,2025-09-11 22:49:19
-100069-4,Fixation point,2025-09-11 22:49:19
-100070-2,Cell density,2025-09-11 22:49:19
-100071-0,Cell density,2025-09-11 22:49:19
-100072-8,Coefficient of variation,2025-09-11 22:49:19
-10007-3,R wave duration.lead V4,2025-09-11 22:49:19
-100073-6,Coefficient of variation,2025-09-11 22:49:19
-100074-4,Hexagonality,2025-09-11 22:49:19
-100075-1,Hexagonality,2025-09-11 22:49:19
-100076-9,Endothelial cells counted,2025-09-11 22:49:19
-100077-7,Endothelial cells counted,2025-09-11 22:49:19
-100078-5,Endothelial cell area.min,2025-09-11 22:49:19
-100079-3,Endothelial cell area.min,2025-09-11 22:49:19
-100080-1,Endothelial cell area.max,2025-09-11 22:49:19
-10008-1,R wave duration.lead V5,2025-09-11 22:49:19
-100081-9,Endothelial cell area.max,2025-09-11 22:49:19
-100082-7,Endothelial cell area.mean,2025-09-11 22:49:19
-100083-5,Endothelial cell area.mean,2025-09-11 22:49:19
-100084-3,Cell area.standard deviation,2025-09-11 22:49:19
-100085-0,Cell area.standard deviation,2025-09-11 22:49:19
-100086-8,Analysis method,2025-09-11 22:49:19
-100087-6,Toxocara canis 24-35kD Ab.IgG,2025-09-11 22:49:19
-100088-4,Taenia solium larva Ab bands panel,2025-09-11 22:49:19
-100089-2,Taenia solium larva 6-8kD Ab,2025-09-11 22:49:19
-1000-9,DBG Ab,2025-09-11 22:49:19
+100000-9,Health informatics pioneer and the father of LOINC,2025-09-12 21:55:15
+100001-7,Health informatics pioneer and cofounder of LOINC,2025-09-12 21:55:15
+100002-5,Specimen care is maintained,2025-09-12 21:55:15
+100003-3,Team communication is maintained throughout care,2025-09-12 21:55:15
+100004-1,Demonstrates knowledge of the expected psychosocial responses to the procedure,2025-09-12 21:55:15
+100005-8,Demonstrates knowledge of nutritional management related to the procedure,2025-09-12 21:55:15
+100006-6,Demonstrates knowledge of medication management,2025-09-12 21:55:15
+100007-4,Demonstrates knowledge of pain management,2025-09-12 21:55:15
+10000-8,R wave duration.lead AVR,2025-09-12 21:55:15
+100008-2,Demonstrates knowledge of wound management,2025-09-12 21:55:15
+100009-0,Demonstrates knowledge of the procedure and expected results,2025-09-12 21:55:15
+100010-8,"No injury related to procedure equipment, medical supplies, or instrumentation",2025-09-12 21:55:15
+100011-6,No injury related to an electrical source,2025-09-12 21:55:15
+100012-4,Participates in decisions affecting the patient's plan of care,2025-09-12 21:55:15
+100013-2,Participates in the discharge process,2025-09-12 21:55:15
+100014-0,Psychosocial health is maintained at or improved from baseline,2025-09-12 21:55:15
+100015-7,No injury related to positioning due to care or procedure,2025-09-12 21:55:15
+10001-6,R wave duration.lead I,2025-09-12 21:55:15
+100016-5,No injury related to a laser source,2025-09-12 21:55:15
+100017-3,Perioperative nursing data set outcomes panel,2025-09-12 21:55:15
+100018-1,Note,2025-09-12 21:55:15
+100019-9,ALK gene targeted mutation analysis,2025-09-12 21:55:15
+100020-7,GNA11 gene targeted mutation analysis,2025-09-12 21:55:15
+100021-5,GNAQ gene targeted mutation analysis,2025-09-12 21:55:15
+100022-3,IDH1 gene targeted mutation analysis,2025-09-12 21:55:15
+100023-1,IDH2 gene targeted mutation analysis,2025-09-12 21:55:15
+10002-4,R wave duration.lead II,2025-09-12 21:55:15
+100024-9,SETBP1 gene targeted mutation analysis,2025-09-12 21:55:15
+100025-6,SRSF2 gene targeted mutation analysis,2025-09-12 21:55:15
+100026-4,MET gene targeted mutation analysis,2025-09-12 21:55:15
+100027-2,SMAD4 gene targeted mutation analysis,2025-09-12 21:55:15
+100028-0,FBXW7 gene targeted mutation analysis,2025-09-12 21:55:15
+100029-8,Cancer related multigene analysis,2025-09-12 21:55:15
+100030-6,Axis I: Temporal aspects score,2025-09-12 21:55:15
+100031-4,Axis II: Spatial aspects score,2025-09-12 21:55:15
+10003-2,R wave duration.lead III,2025-09-12 21:55:15
+100032-2,Axis III: Drug taking behavior score,2025-09-12 21:55:15
+100033-0,Axis IV: Utilization of the health care system score,2025-09-12 21:55:15
+100034-8,Provider of automated external defibrillator use,2025-09-12 21:55:15
+100035-5,Exam finding location,2025-09-12 21:55:15
+100036-3,Exam finding location,2025-09-12 21:55:15
+100037-1,Patient contact disposition,2025-09-12 21:55:15
+100038-9,Patient evaluation disposition,2025-09-12 21:55:15
+100039-7,Crew disposition for patient care,2025-09-12 21:55:15
+10004-0,R wave duration.lead V1,2025-09-12 21:55:15
+100040-5,Patient transport disposition,2025-09-12 21:55:15
+100041-3,Aminoglycoside,2025-09-12 21:55:15
+100042-1,Atovaquone,2025-09-12 21:55:15
+100043-9,Azithromycin+Ethambutol,2025-09-12 21:55:15
+100044-7,Cefcapene,2025-09-12 21:55:15
+100045-4,Cefozopran,2025-09-12 21:55:15
+100046-2,Cefquinome,2025-09-12 21:55:15
+100047-0,Cefteram,2025-09-12 21:55:15
+100048-8,Clarithromycin+Ethambutol,2025-09-12 21:55:15
+100049-6,Eravacycline,2025-09-12 21:55:15
+100050-4,Erythromycin+Ethambutol,2025-09-12 21:55:15
+100051-2,Ethambutol+rifAMPin,2025-09-12 21:55:15
+100052-0,Flomoxef,2025-09-12 21:55:15
+100053-8,Fluoroquinolone,2025-09-12 21:55:15
+100054-6,Gamithromycin,2025-09-12 21:55:15
+100055-3,Optochin,2025-09-12 21:55:15
+100056-1,Panipenem,2025-09-12 21:55:15
+10005-7,R wave duration.lead V2,2025-09-12 21:55:15
+100057-9,Prothionamide,2025-09-12 21:55:15
+100058-7,Prulifloxacin,2025-09-12 21:55:15
+100059-5,Rifapentine,2025-09-12 21:55:15
+100060-3,Tildipirosin,2025-09-12 21:55:15
+100061-1,Tosufloxacin,2025-09-12 21:55:15
+100062-9,Standard Dermatology Outcome Measures panel,2025-09-12 21:55:15
+100063-7,Primary skin concern,2025-09-12 21:55:15
+100064-5,Itch severity,2025-09-12 21:55:15
+10006-5,R wave duration.lead V3,2025-09-12 21:55:15
+100065-2,Satisfied with treatment,2025-09-12 21:55:15
+100066-0,Specular microscopy panel,2025-09-12 21:55:15
+100067-8,Image magnification,2025-09-12 21:55:15
+100068-6,Fixation point,2025-09-12 21:55:15
+100069-4,Fixation point,2025-09-12 21:55:15
+100070-2,Cell density,2025-09-12 21:55:15
+100071-0,Cell density,2025-09-12 21:55:15
+100072-8,Coefficient of variation,2025-09-12 21:55:15
+10007-3,R wave duration.lead V4,2025-09-12 21:55:15
+100073-6,Coefficient of variation,2025-09-12 21:55:15
+100074-4,Hexagonality,2025-09-12 21:55:15
+100075-1,Hexagonality,2025-09-12 21:55:15
+100076-9,Endothelial cells counted,2025-09-12 21:55:15
+100077-7,Endothelial cells counted,2025-09-12 21:55:15
+100078-5,Endothelial cell area.min,2025-09-12 21:55:15
+100079-3,Endothelial cell area.min,2025-09-12 21:55:15
+100080-1,Endothelial cell area.max,2025-09-12 21:55:15
+10008-1,R wave duration.lead V5,2025-09-12 21:55:15
+100081-9,Endothelial cell area.max,2025-09-12 21:55:15
+100082-7,Endothelial cell area.mean,2025-09-12 21:55:15
+100083-5,Endothelial cell area.mean,2025-09-12 21:55:15
+100084-3,Cell area.standard deviation,2025-09-12 21:55:15
+100085-0,Cell area.standard deviation,2025-09-12 21:55:15
+100086-8,Analysis method,2025-09-12 21:55:15
+100087-6,Toxocara canis 24-35kD Ab.IgG,2025-09-12 21:55:15
+100088-4,Taenia solium larva Ab bands panel,2025-09-12 21:55:15
+100089-2,Taenia solium larva 6-8kD Ab,2025-09-12 21:55:15
+1000-9,DBG Ab,2025-09-12 21:55:15
