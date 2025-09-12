@@ -6,19 +6,21 @@
 
 ## Overview
 
-This project processes 7 major medical coding standards into clean, standardized CSV outputs. Healthcare companies like Epic need updated vocabularies for their systems, so this pipeline loads raw files, validates code formats, and outputs lightweight standardized CSVs.
+This project processes 7 medical coding standards into clean CSV files. Healthcare companies like Epic need updated vocabularies for their systems, so I built a pipeline that handles different file formats, validates the codes, enforces consistent outputs, and includes logging and error handling for robustness.
 
-**Medical Codexes Processed:**
-- SNOMED CT (clinical terms)
-- ICD-10-CM / ICD-10-WHO (diagnosis codes)
-- HCPCS (procedures)
-- LOINC (lab tests)
-- RxNorm (medications)
-- NPI (provider IDs)
+### Medical Codexes Processed:
+
+- **SNOMED CT** (clinical terms)
+- **ICD-10-CM / ICD-10-WHO** (diagnosis codes)
+- **HCPCS** (procedures)
+- **LOINC** (lab tests)
+- **RxNorm** (medications)
+- **NPI** (provider IDs)
 
 ## Quick Start
 
-**Setup environment:**
+### Setup:
+
 ```bash
 git clone https://github.com/jonathanjafari/medical-codex-pipeline.git
 cd medical-codex-pipeline
@@ -27,7 +29,8 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-**Create directories:**
+### Create directories:
+
 ```bash
 mkdir input output logs
 mkdir output/csv
@@ -36,16 +39,23 @@ mkdir output/csv
 ## How It Works
 
 Each processor script:
-1. Loads a data file from `input/` (local only, ignored by GitHub)
+
+1. Loads a raw data file from `input/`
 2. Cleans and standardizes codes + descriptions
 3. Validates codes with regex rules
 4. Saves results to `output/csv/`
 
-**Standard Output Format:**
+### Standard Output Format:
+
 ```csv
 code,description,last_updated
 A00.0,Cholera due to Vibrio cholerae,2025-09-11 01:30:00
+code,description,last_updated
+A00.0,Cholera due to Vibrio cholerae,2025-09-11 01:30:00
 ```
+
+### Row Limit:
+All outputs are capped at 100 rows using the shared `save_to_formats()` function in `utils/common_functions.py`.
 
 ## File Structure
 
@@ -59,12 +69,18 @@ medical-codex-pipeline/
 │   ├── loinc_processor.py
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
-├── input/             # Raw datasets (local only, ignored in Git)
-│   └── (place full vocabularies here before running)
-├── output/csv/        # Clean standardized outputs
-├── utils/             # Common functions
+├── input/            # Raw data files
+│   ├── sct2_Description_Full-en_US1000124_20250901.txt   # SNOMED CT (requires UMLS license)
+│   ├── icd10cm_order_2025.csv                           # ICD-10-CM
+│   ├── icd102019syst_codes_WHO.txt                      # ICD-10-WHO
+│   ├── HCPC2025_OCT_ANWEB.csv                           # HCPCS (public)
+│   ├── Loinc.csv                                        # LOINC
+│   ├── RXNCONSO.RRF                                     # RxNorm (requires UMLS license)
+│   └── npidata_pfile_20050523-20250907.csv              # NPI (public dataset)
+├── output/csv/       # Standardized CSV outputs
+├── utils/            # Shared helper functions
 │   └── common_functions.py
-├── logs/
+├── logs/             # Logging folder
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -72,76 +88,109 @@ medical-codex-pipeline/
 
 ## Input Files
 
-Full datasets (ICD-10-CM, ICD-10-WHO, LOINC, NPI, SNOMED CT, RxNorm, HCPCS) are large and/or licensed. These are excluded from GitHub with `.gitignore`.
+Expected input files in `input/`:
 
-## Data Sources
+- `sct2_Description_Full-en_US1000124_20250901.txt` → SNOMED CT (requires UMLS license)
+- `icd10cm_order_2025.csv` → ICD-10-CM
+- `icd102019syst_codes_WHO.txt` → ICD-10-WHO
+- `HCPC2025_OCT_ANWEB.csv` → HCPCS (public dataset)
+- `Loinc.csv` → LOINC
+- `RXNCONSO.RRF` → RxNorm (requires UMLS license)
+- `npidata_pfile_20050523-20250907.csv` → NPI (public dataset, very large)
 
-This project uses publicly available or licensed vocabularies. Full datasets must be downloaded separately:
+These full datasets are excluded from GitHub history with .gitignore (to avoid size and licensing issues) but must be placed in the `input/` folder locally before running the processors.
 
-- **SNOMED CT (US Edition)** – [NLM SNOMED CT Archive](https://www.nlm.nih.gov/research/umls/Snomed/snomed_main.html)
-- **ICD-10-CM (US Edition)** – [CMS ICD-10-CM Codes](https://www.cms.gov/Medicare/Coding/ICD10/)
-- **ICD-10 (WHO Edition)** – [WHO ICD-10 Browser](https://icd.who.int/browse10/2019/en)
-- **HCPCS (US)** – [CMS HCPCS Quarterly Updates](https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets)
-- **LOINC (US)** – [Regenstrief LOINC Downloads](https://loinc.org/downloads/)
-- **RxNorm (US)** – [NLM RxNorm Files](https://www.nlm.nih.gov/research/umls/rxnorm/docs/rxnormfiles.html)
-- **NPI (US)** – [CMS NPI Downloadable Files](https://download.cms.gov/nppes/NPI_Files.html)
+## Output Files
 
-**To run processors locally, place the raw files into `input/`:**
-```
-input/icd10cm_order_2025.csv
-input/icd102019syst_codes_WHO.txt
-input/Loinc.csv
-input/npidata_pfile_20050523-20250907.csv
-input/RXNCONSO.RRF
-input/sct2_Description_Full-en_US*.txt
-input/HCPC2025_OCT_ANWEB.csv
+All processors standardize to the same format:
+
+```csv
+code,description,last_updated
 ```
 
-## Outputs
+Outputs are saved under `output/csv/`:
 
-All processors produce standardized CSVs under `output/csv/`:
+- `output/csv/icd10cm_standardized.csv`
+- `output/csv/icd10who_standardized.csv`
+- `output/csv/hcpcs_standardized.csv`
+- `output/csv/loinc_standardized.csv`
+- `output/csv/npi_standardized.csv`
+- `output/csv/rxnorm_standardized.csv`
+- `output/csv/snomed_standardized.csv`
 
+Each output is capped at 100 rows for readability and GitHub rendering.
+
+## Running Individual Processors
+
+Run any processor from the project root:
+
+```bash
+python3 scripts/snomed_processor.py
+python3 scripts/icd10cm_processor.py
+python3 scripts/icd10who_processor.py
+python3 scripts/hcpcs_processor.py
+python3 scripts/loinc_processor.py
+python3 scripts/rxnorm_processor.py
+python3 scripts/npi_processor.py
 ```
-output/csv/icd10cm_standardized.csv
-output/csv/icd10who_standardized.csv
-output/csv/hcpcs_standardized.csv
-output/csv/loinc_standardized.csv
-output/csv/npi_standardized.csv
-output/csv/rxnorm_standardized.csv
-output/csv/snomed_standardized.csv
-```
-
-Each output:
-- **Columns**: `code,description,last_updated`
-- **Row limit**: capped at 100 rows for readability
-
-## Why Two ICD-10 Inputs?
-
-- **ICD-10-CM** → U.S. version, detailed, used for billing/reimbursement.
-- **ICD-10-WHO** → International version, less granular, used for public health reporting.
 
 ## Key Features
 
-- **Validation**: Regex-based checks (e.g., ICD-10: A00.0, NPI: 10 digits).
-- **Error Handling**: Logging, duplicate/missing row removal.
-- **Consistency**: Shared utility functions across processors.
-- **Lightweight Repo**: Large datasets excluded, only outputs and code tracked.
+### Data Validation
+
+- **SNOMED CT:** Numeric identifiers
+- **ICD-10-CM/WHO:** Alphanumeric with optional decimal (e.g., A00.0)
+- **HCPCS:** Letter + 4 digits (A0021)
+- **LOINC:** Digits-dash-digits (1234-5)
+- **RxNorm:** RXCUI numeric identifiers
+- **NPI:** 10 digits (1234567890)
+
+### Error Handling & Logging
+
+- Centralized logging with `init_logging()`
+- Robust try/except in each processor's `main()`
+- Errors logged as `ERROR:` instead of silent failures
+- `save_to_formats()` ensures outputs always include `last_updated`
 
 ## Challenges & Solutions
 
-- **Large licensed datasets** → excluded from GitHub, used locally only.
-- **Mixed file formats** → handled with custom loaders.
-- **Duplicate/empty rows** → dropped in cleaning functions.
-- **Cross-platform differences** → standardized commands with `python3`.
+**Problem:** Different file formats (CSV, TXT, semicolon-delimited, RRF)  
+**Solution:** Custom loaders for each source type.
+
+**Problem:** Inconsistent column names  
+**Solution:** Renamed all to `code` and `description`.
+
+**Problem:** Large licensed datasets (SNOMED CT, RxNorm)  
+**Solution:** Use official files locally and exclude them from GitHub via `.gitignore`
+
+**Problem:** Duplicate or empty rows  
+**Solution:** Removed with `.dropna()` and `.drop_duplicates()`.
+
+**Problem:** macOS/Linux command differences  
+**Solution:** Usage examples standardized with `python3`.
+
+## Assignment Requirements ✓
+
+- ✅ 7 processing scripts
+- ✅ Common utilities module
+- ✅ Standardized CSV outputs
+- ✅ Data validation & cleaning
+- ✅ Error handling & logging
+- ✅ Full dataset support with lightweight standardized outputs
+- ✅ Complete documentation
+- ✅ requirements.txt
 
 ## Dependencies
 
-**Required packages:**
-- **pandas >= 1.5.0** – data manipulation
-- **lxml >= 4.9.0** – XML parsing (future extension)
-- **requests >= 2.28.0** – optional, for file downloads
+### Required packages:
 
-**Standard libraries:** pathlib, datetime, logging, re
+- **pandas** >= 1.5.0 – Data manipulation
+- **lxml** >= 4.9.0 – XML parsing (future use)
+- **requests** >= 2.28.0 – Optional, for auto-downloads
+
+### Standard libraries used:
+
+pathlib, datetime, logging, re, os
 
 Install with:
 ```bash
@@ -156,12 +205,12 @@ pip install -r requirements.txt
 
 ## Real-World Context
 
-This simulates how healthcare IT teams manage vocabularies:
-- EHR vendors update vocabularies regularly.
-- Insurers require current HCPCS/ICD codes for billing.
-- Labs use LOINC for interoperability.
-- SNOMED CT + RxNorm enable decision support and medication safety.
+This simulates how healthcare IT manages vocabularies:
 
----
+- EHR vendors (Epic, Cerner) update SNOMED & ICD regularly
+- Insurers require HCPCS/ICD for billing
+- Labs use LOINC for test interoperability
+- RxNorm ensures medication names are standardized
+- NPI validates provider identifiers
 
-**Note:** This is a class project using local raw data. Real-world deployment requires licensed datasets, secure storage, and HIPAA compliance.
+**Note:** This is a class project using full datasets locally. Real-world deployment requires licensed datasets, secure storage, and HIPAA compliance.

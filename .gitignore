@@ -23,11 +23,35 @@ Thumbs.db
 .idea/
 
 # ----------------------
-# Project-specific ignores
+# Logs (we don’t need to push runtime logs)
 # ----------------------
+logs/*
+!logs/.gitkeep
 
-# Ignore all raw inputs (kept local only)
-input/*
+# ----------------------
+# Archives / temporary files
+# ----------------------
+*.log
+*.zip
+*.tar.gz
+*.bak
 
-# Track outputs (standardized CSVs are lightweight and needed for demo)
-# No rule needed — by default Git will track output/ since it’s not ignored
+# ----------------------
+# Input data handling
+# ----------------------
+# Ignore all raw CSV/TXT files
+input/*.csv
+input/*.txt
+
+# Keep small sample files for testing
+!input/*sample*
+
+# Ignore old sample and placeholder input files
+input/*_sample.csv
+input/*_sample.txt
+input/*_concepts.txt
+input/rxnorm_2024.txt
+input/*.RRF
+input/*.txt
+input/*.csv
+
