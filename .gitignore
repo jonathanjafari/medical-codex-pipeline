@@ -26,16 +26,14 @@ Thumbs.db
 # Project: Medical Codex Pipeline
 # ----------------------
 
-# Inputs (licensed / large). Ignore all input datasets.
-input/*
-!input/.gitkeep
+# Inputs (licensed / large). Ignore completely (local only).
+input/
 
-# Outputs (generated). Keep CSVs for professor, ignore temp junk
-# (no ignore rule here, outputs are tracked intentionally)
+# Outputs (generated). Keep CSVs for professor.
+# (No ignore rules here — outputs are tracked.)
 
-# Logs (generated). Ignore logs, keep placeholder only.
-logs/*
-!logs/.gitkeep
+# Logs (generated). Ignore logs completely.
+logs/
 
 # Temp / downloads / cache
 tmp/
