@@ -61,7 +61,7 @@ All outputs are capped at 100 rows using the shared `save_to_formats()` function
 
 ```
 medical-codex-pipeline/
-├── scripts/           # 7 processor scripts
+├── scripts/            # 7 processor scripts
 │   ├── snomed_processor.py
 │   ├── icd10cm_processor.py
 │   ├── icd10who_processor.py
@@ -69,22 +69,21 @@ medical-codex-pipeline/
 │   ├── loinc_processor.py
 │   ├── rxnorm_processor.py
 │   └── npi_processor.py
-├── input/            # Raw data files
-│   ├── sct2_Description_Full-en_US1000124_20250901.txt   # SNOMED CT (requires UMLS license)
-│   ├── icd10cm_order_2025.csv                           # ICD-10-CM
-│   ├── icd102019syst_codes_WHO.txt                      # ICD-10-WHO
-│   ├── HCPC2025_OCT_ANWEB.csv                           # HCPCS (public)
-│   ├── Loinc.csv                                        # LOINC
-│   ├── RXNCONSO.RRF                                     # RxNorm (requires UMLS license)
-│   └── npidata_pfile_20050523-20250907.csv              # NPI (public dataset)
-├── output/csv/       # Standardized CSV outputs
-├── utils/            # Shared helper functions
+├── output/csv/         # Standardized CSV outputs (capped at 100 rows)
+│   ├── hcpcs_standardized.csv
+│   ├── icd10cm_standardized.csv
+│   ├── icd10who_standardized.csv
+│   ├── loinc_standardized.csv
+│   ├── npi_standardized.csv
+│   ├── rxnorm_standardized.csv
+│   └── snomed_standardized.csv
+├── utils/              # Shared helper functions
 │   └── common_functions.py
-├── logs/             # Logging folder
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
+⚠️ Input datasets are not included in this repository (due to licensing and size). To run processors locally, place raw datasets into an input/ folder at the project root.
 
 ## Input Files
 
